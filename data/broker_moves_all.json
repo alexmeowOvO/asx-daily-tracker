@@ -1,0 +1,3262 @@
+{
+  "last_updated": "2026-02-06T09:25:01.056080",
+  "total_count": 373,
+  "dates": [
+    "2026-01-30",
+    "2026-02-02",
+    "2026-02-03",
+    "2026-02-04",
+    "2026-02-05"
+  ],
+  "moves_by_date": {
+    "2026-01-30": [
+      {
+        "symbol": "29M",
+        "name": "29Metals",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "accumulate",
+        "price_target": 0.6,
+        "previous_rating": "hold",
+        "previous_price_target": 0.45
+      },
+      {
+        "symbol": "A2M",
+        "name": "The a2 Milk Company",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 10.4
+      },
+      {
+        "symbol": "AAI",
+        "name": "Alcoa Corporation",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 103.0
+      },
+      {
+        "symbol": "ALD",
+        "name": "Ampol",
+        "broker": "E&P",
+        "action": "retained",
+        "rating": "positive",
+        "price_target": 34.0
+      },
+      {
+        "symbol": "ALD",
+        "name": "Ampol",
+        "broker": "Goldman Sachs",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 35.5
+      },
+      {
+        "symbol": "ALD",
+        "name": "Ampol",
+        "broker": "Jefferies",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 34.0,
+        "previous_price_target": 35.5
+      },
+      {
+        "symbol": "ALD",
+        "name": "Ampol",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 33.65
+      },
+      {
+        "symbol": "ALD",
+        "name": "Ampol",
+        "broker": "RBC Capital Markets",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 35.0
+      },
+      {
+        "symbol": "ALK",
+        "name": "Alkane Resources",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 2.05,
+        "previous_rating": "accumulate",
+        "previous_price_target": 1.7
+      },
+      {
+        "symbol": "AR1",
+        "name": "Austral Resources Australia",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.2
+      },
+      {
+        "symbol": "ARB",
+        "name": "ARB Corporation",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 27.85,
+        "previous_price_target": 39.5
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 54.5,
+        "previous_price_target": 52.2
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "Goldman Sachs",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 57.0
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "Jarden",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 58.0,
+        "previous_price_target": 57.65
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "JPMorgan",
+        "action": "upgraded",
+        "rating": "overweight",
+        "price_target": 62.0,
+        "previous_rating": "neutral",
+        "previous_price_target": 60.0
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 45.15
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 55.75,
+        "previous_price_target": 54.85
+      },
+      {
+        "symbol": "AUB",
+        "name": "AUB Group",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 35.26
+      },
+      {
+        "symbol": "BCI",
+        "name": "BCI Minerals",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.5
+      },
+      {
+        "symbol": "BGL",
+        "name": "Bellevue Gold",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 2.25
+      },
+      {
+        "symbol": "BHP",
+        "name": "BHP Group",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 51.0,
+        "previous_price_target": 49.0
+      },
+      {
+        "symbol": "BMC",
+        "name": "BMC Minerals .",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 6.4
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "Argonaut Securities",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 2.3,
+        "previous_price_target": 1.9
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "Bell Potter",
+        "action": "downgraded",
+        "rating": "hold",
+        "price_target": 1.95,
+        "previous_rating": "buy"
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 2.3,
+        "previous_price_target": 2.2
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "E&P",
+        "action": "retained",
+        "rating": "negative",
+        "price_target": 1.0
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 1.2,
+        "previous_price_target": 1.1
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 2.05
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "sell",
+        "price_target": 1.5,
+        "previous_rating": "hold",
+        "previous_price_target": 1.15
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "RBC Capital Markets",
+        "action": "downgraded",
+        "rating": "underperform",
+        "price_target": 1.15,
+        "previous_rating": "sector perform"
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 1.3
+      },
+      {
+        "symbol": "BOQ",
+        "name": "Bank of Queensland",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 7.15
+      },
+      {
+        "symbol": "CHN",
+        "name": "Chalice Mining",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 1.2,
+        "previous_price_target": 1.15
+      },
+      {
+        "symbol": "CMM",
+        "name": "Capricorn Metals",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 24.0,
+        "previous_price_target": 19.5
+      },
+      {
+        "symbol": "CRN",
+        "name": "Coronado Global Resources Inc",
+        "broker": "Argonaut Securities",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.8
+      },
+      {
+        "symbol": "CRN",
+        "name": "Coronado Global Resources Inc",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 0.43,
+        "previous_price_target": 0.47
+      },
+      {
+        "symbol": "CRN",
+        "name": "Coronado Global Resources Inc",
+        "broker": "Jefferies",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 0.4,
+        "previous_price_target": 0.34
+      },
+      {
+        "symbol": "CRN",
+        "name": "Coronado Global Resources Inc",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 0.4,
+        "previous_price_target": 0.25
+      },
+      {
+        "symbol": "CRN",
+        "name": "Coronado Global Resources Inc",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 0.45,
+        "previous_price_target": 0.48
+      },
+      {
+        "symbol": "CRN",
+        "name": "Coronado Global Resources Inc",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 0.53,
+        "previous_rating": "neutral",
+        "previous_price_target": 0.44
+      },
+      {
+        "symbol": "CSC",
+        "name": "Capstone Copper Corp.",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 16.5,
+        "previous_price_target": 14.5
+      },
+      {
+        "symbol": "CXO",
+        "name": "Core Lithium",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.35,
+        "previous_price_target": 0.3
+      },
+      {
+        "symbol": "DLI",
+        "name": "Delta Lithium",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "sell",
+        "price_target": 0.21,
+        "previous_rating": "hold",
+        "previous_price_target": 0.17
+      },
+      {
+        "symbol": "DOW",
+        "name": "Downer EDI",
+        "broker": "Canaccord Genuity",
+        "action": "initiated",
+        "rating": "buy",
+        "price_target": 8.58
+      },
+      {
+        "symbol": "DRR",
+        "name": "Deterra Royalties",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "hold",
+        "price_target": 4.6,
+        "previous_rating": "buy"
+      },
+      {
+        "symbol": "DVP",
+        "name": "Develop Global",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 6.4,
+        "previous_price_target": 5.8
+      },
+      {
+        "symbol": "DYL",
+        "name": "Deep Yellow",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "lighten",
+        "price_target": 2.35,
+        "previous_rating": "accumulate",
+        "previous_price_target": 2.0
+      },
+      {
+        "symbol": "ELV",
+        "name": "Elevra Lithium",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 8.5
+      },
+      {
+        "symbol": "EMR",
+        "name": "Emerald Resources NL",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 6.5,
+        "previous_price_target": 4.9
+      },
+      {
+        "symbol": "EMV",
+        "name": "EMvision Medical Devices",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 3.15
+      },
+      {
+        "symbol": "FFM",
+        "name": "FireFly Metals",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 1.9,
+        "previous_price_target": 1.7
+      },
+      {
+        "symbol": "FMG",
+        "name": "Fortescue",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 22.5,
+        "previous_price_target": 23.0
+      },
+      {
+        "symbol": "GGP",
+        "name": "Greatland Resources",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 16.0,
+        "previous_price_target": 13.5
+      },
+      {
+        "symbol": "GGP",
+        "name": "Greatland Resources",
+        "broker": "Jarden",
+        "action": "downgraded",
+        "rating": "underweight",
+        "price_target": 5.5,
+        "previous_rating": "neutral",
+        "previous_price_target": 5.2
+      },
+      {
+        "symbol": "GGP",
+        "name": "Greatland Resources",
+        "broker": "Macquarie",
+        "action": "downgraded",
+        "rating": "neutral",
+        "price_target": 13.0,
+        "previous_rating": "outperform",
+        "previous_price_target": 11.4
+      },
+      {
+        "symbol": "GGP",
+        "name": "Greatland Resources",
+        "broker": "Moelis Australia",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 11.3,
+        "previous_price_target": 9.3
+      },
+      {
+        "symbol": "GGP",
+        "name": "Greatland Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 18.5
+      },
+      {
+        "symbol": "GL1",
+        "name": "Global Lithium Resources",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 0.65,
+        "previous_rating": "hold",
+        "previous_price_target": 0.6
+      },
+      {
+        "symbol": "GYG",
+        "name": "Guzman Y Gomez",
+        "broker": "RBC Capital Markets",
+        "action": "downgraded",
+        "rating": "underperform",
+        "price_target": 21.0,
+        "previous_rating": "sector perform",
+        "previous_price_target": 24.0
+      },
+      {
+        "symbol": "HAS",
+        "name": "Hastings Technology Metals",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 0.35,
+        "previous_price_target": 0.32
+      },
+      {
+        "symbol": "IGO",
+        "name": "IGO",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 9.7,
+        "previous_price_target": 8.25
+      },
+      {
+        "symbol": "IMR",
+        "name": "Imricor Medical Systems Inc",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 2.71,
+        "previous_price_target": 2.22
+      },
+      {
+        "symbol": "ING",
+        "name": "Inghams Group",
+        "broker": "RBC Capital Markets",
+        "action": "downgraded",
+        "rating": "underperform",
+        "price_target": 2.1,
+        "previous_rating": "sector perform",
+        "previous_price_target": 2.5
+      },
+      {
+        "symbol": "LTR",
+        "name": "Liontown",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 2.0
+      },
+      {
+        "symbol": "MAU",
+        "name": "Magnetic Resources NL",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.98
+      },
+      {
+        "symbol": "MHJ",
+        "name": "Michael Hill International",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 0.75
+      },
+      {
+        "symbol": "MI6",
+        "name": "Minerals 260",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 1.1,
+        "previous_price_target": 0.55
+      },
+      {
+        "symbol": "MIN",
+        "name": "Mineral Resources",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "hold",
+        "price_target": 64.0,
+        "previous_rating": "accumulate",
+        "previous_price_target": 57.0
+      },
+      {
+        "symbol": "MLX",
+        "name": "Metals X",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 1.6,
+        "previous_price_target": 1.05
+      },
+      {
+        "symbol": "MSV",
+        "name": "Mitchell Services",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.5,
+        "previous_price_target": 0.45
+      },
+      {
+        "symbol": "NCK",
+        "name": "Nick Scali",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 29.3
+      },
+      {
+        "symbol": "NEM",
+        "name": "Newmont Corporation",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 215.0,
+        "previous_rating": "accumulate",
+        "previous_price_target": 160.0
+      },
+      {
+        "symbol": "NHC",
+        "name": "New Hope Corporation",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "hold",
+        "price_target": 4.35,
+        "previous_rating": "accumulate",
+        "previous_price_target": 4.3
+      },
+      {
+        "symbol": "NIC",
+        "name": "Nickel Industries",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 1.9
+      },
+      {
+        "symbol": "NWL",
+        "name": "Netwealth Group",
+        "broker": "Bank of America",
+        "action": "downgraded",
+        "rating": "neutral",
+        "price_target": 26.0,
+        "previous_rating": "buy",
+        "previous_price_target": 35.5
+      },
+      {
+        "symbol": "OBM",
+        "name": "Ora Banda Mining",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 2.25,
+        "previous_rating": "hold",
+        "previous_price_target": 1.5
+      },
+      {
+        "symbol": "ORI",
+        "name": "Orica",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 30.0,
+        "previous_price_target": 26.0
+      },
+      {
+        "symbol": "PDI",
+        "name": "Predictive Discovery",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 1.15,
+        "previous_rating": "hold",
+        "previous_price_target": 0.95
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "accumulate",
+        "price_target": 5.5,
+        "previous_rating": "hold",
+        "previous_price_target": 4.05
+      },
+      {
+        "symbol": "PRU",
+        "name": "Perseus Mining",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "hold",
+        "price_target": 6.4,
+        "previous_rating": "lighten",
+        "previous_price_target": 5.0
+      },
+      {
+        "symbol": "QAN",
+        "name": "Qantas Airways",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 12.39
+      },
+      {
+        "symbol": "REA",
+        "name": "REA Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 210.0,
+        "previous_price_target": 220.0
+      },
+      {
+        "symbol": "RIO",
+        "name": "Rio Tinto",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 158.0,
+        "previous_price_target": 150.0
+      },
+      {
+        "symbol": "RRL",
+        "name": "Regis Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 7.0,
+        "previous_price_target": 5.15
+      },
+      {
+        "symbol": "RSG",
+        "name": "Resolute Mining",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 1.9,
+        "previous_rating": "hold",
+        "previous_price_target": 1.25
+      },
+      {
+        "symbol": "S32",
+        "name": "South32",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 5.1,
+        "previous_price_target": 4.6
+      },
+      {
+        "symbol": "SBM",
+        "name": "St Barbara",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "speculative buy",
+        "price_target": 1.0,
+        "previous_rating": "hold",
+        "previous_price_target": 0.65
+      },
+      {
+        "symbol": "SBM",
+        "name": "St Barbara",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 2.7,
+        "previous_price_target": 2.8
+      },
+      {
+        "symbol": "SBM",
+        "name": "St Barbara",
+        "broker": "Morgans",
+        "action": "initiated",
+        "rating": "speculative buy",
+        "price_target": 3.07
+      },
+      {
+        "symbol": "SNS",
+        "name": "SenSen Networks",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.12,
+        "previous_price_target": 0.14
+      },
+      {
+        "symbol": "SUL",
+        "name": "Super Retail Group",
+        "broker": "RBC Capital Markets",
+        "action": "upgraded",
+        "rating": "outperform",
+        "price_target": 16.1,
+        "previous_rating": "sector perform",
+        "previous_price_target": 15.8
+      },
+      {
+        "symbol": "SYR",
+        "name": "Syrah Resources",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 0.5
+      },
+      {
+        "symbol": "TNC",
+        "name": "True North Copper",
+        "broker": "Morgans",
+        "action": "initiated",
+        "rating": "speculative buy",
+        "price_target": 1.2
+      },
+      {
+        "symbol": "TTX",
+        "name": "Tetratherix",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 5.76
+      },
+      {
+        "symbol": "TWE",
+        "name": "Treasury Wine Estates",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 4.8
+      },
+      {
+        "symbol": "TWE",
+        "name": "Treasury Wine Estates",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.25
+      },
+      {
+        "symbol": "WAF",
+        "name": "West African Resources",
+        "broker": "Argonaut Securities",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 6.4
+      },
+      {
+        "symbol": "WAF",
+        "name": "West African Resources",
+        "broker": "Euroz Hartleys",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 5.65,
+        "previous_price_target": 5.0
+      },
+      {
+        "symbol": "WAF",
+        "name": "West African Resources",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 3.9
+      },
+      {
+        "symbol": "WAF",
+        "name": "West African Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 4.8,
+        "previous_price_target": 3.7
+      },
+      {
+        "symbol": "WBC",
+        "name": "Westpac Banking Corporation",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 39.0
+      },
+      {
+        "symbol": "WC8",
+        "name": "Wildcat Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.65,
+        "previous_price_target": 0.4
+      },
+      {
+        "symbol": "WDS",
+        "name": "Woodside Energy Group",
+        "broker": "Goldman Sachs",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 22.5,
+        "previous_price_target": 23.3
+      },
+      {
+        "symbol": "WDS",
+        "name": "Woodside Energy Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 25.0
+      },
+      {
+        "symbol": "WDS",
+        "name": "Woodside Energy Group",
+        "broker": "RBC Capital Markets",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 31.5
+      },
+      {
+        "symbol": "WDS",
+        "name": "Woodside Energy Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 23.1,
+        "previous_price_target": 23.5
+      },
+      {
+        "symbol": "WEB",
+        "name": "WEB Travel Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 6.15
+      }
+    ],
+    "2026-02-02": [
+      {
+        "symbol": "AIS",
+        "name": "Aeris Resources",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 0.7,
+        "previous_price_target": 0.6
+      },
+      {
+        "symbol": "ALX",
+        "name": "Atlas Arteria",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 5.55
+      },
+      {
+        "symbol": "ALX",
+        "name": "Atlas Arteria",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 4.58,
+        "previous_price_target": 4.74
+      },
+      {
+        "symbol": "ALX",
+        "name": "Atlas Arteria",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.15,
+        "previous_price_target": 5.2
+      },
+      {
+        "symbol": "BBT",
+        "name": "BETR Entertainment",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.38,
+        "previous_price_target": 0.46
+      },
+      {
+        "symbol": "BGL",
+        "name": "Bellevue Gold",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 2.25,
+        "previous_price_target": 2.05
+      },
+      {
+        "symbol": "BRE",
+        "name": "Brazilian Rare Earths",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 7.5,
+        "previous_price_target": 7.0
+      },
+      {
+        "symbol": "BUB",
+        "name": "Bubs Australia",
+        "broker": "Bell Potter",
+        "action": "upgraded",
+        "rating": "speculative buy",
+        "price_target": 0.18,
+        "previous_rating": "hold",
+        "previous_price_target": 0.17
+      },
+      {
+        "symbol": "BUB",
+        "name": "Bubs Australia",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 0.18
+      },
+      {
+        "symbol": "CHN",
+        "name": "Chalice Mining",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.0,
+        "previous_price_target": 2.75
+      },
+      {
+        "symbol": "CIA",
+        "name": "Champion Iron",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 5.55,
+        "previous_price_target": 5.65
+      },
+      {
+        "symbol": "ELD",
+        "name": "Elders",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 8.45
+      },
+      {
+        "symbol": "ELD",
+        "name": "Elders",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 8.4
+      },
+      {
+        "symbol": "EMR",
+        "name": "Emerald Resources NL",
+        "broker": "Argonaut Securities",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 11.0,
+        "previous_price_target": 10.7
+      },
+      {
+        "symbol": "EMR",
+        "name": "Emerald Resources NL",
+        "broker": "Euroz Hartleys",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 8.4,
+        "previous_price_target": 8.15
+      },
+      {
+        "symbol": "EMR",
+        "name": "Emerald Resources NL",
+        "broker": "SCP Equity Research",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 10.15
+      },
+      {
+        "symbol": "EVN",
+        "name": "Evolution Mining",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 12.9,
+        "previous_price_target": 12.2
+      },
+      {
+        "symbol": "GMD",
+        "name": "Genesis Minerals",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 9.9,
+        "previous_price_target": 8.65
+      },
+      {
+        "symbol": "GMD",
+        "name": "Genesis Minerals",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 8.7,
+        "previous_price_target": 8.4
+      },
+      {
+        "symbol": "GMD",
+        "name": "Genesis Minerals",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 8.15,
+        "previous_price_target": 8.4
+      },
+      {
+        "symbol": "GMD",
+        "name": "Genesis Minerals",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 10.0,
+        "previous_price_target": 8.5
+      },
+      {
+        "symbol": "IEL",
+        "name": "IDP Education",
+        "broker": "Bank of America",
+        "action": "downgraded",
+        "rating": "underperform",
+        "price_target": 6.0,
+        "previous_rating": "neutral",
+        "previous_price_target": 6.4
+      },
+      {
+        "symbol": "IMM",
+        "name": "Immutep",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.65,
+        "previous_price_target": 0.6
+      },
+      {
+        "symbol": "JMS",
+        "name": "Jupiter Mines .",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 0.29
+      },
+      {
+        "symbol": "LOT",
+        "name": "Lotus Resources",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 3.6,
+        "previous_price_target": 3.57
+      },
+      {
+        "symbol": "LOT",
+        "name": "Lotus Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 4.2
+      },
+      {
+        "symbol": "M7T",
+        "name": "Mach7 Technologies",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.76
+      },
+      {
+        "symbol": "MEK",
+        "name": "Meeka Metals",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.33
+      },
+      {
+        "symbol": "MX1",
+        "name": "Micro-X",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.16
+      },
+      {
+        "symbol": "NEC",
+        "name": "Nine Entertainment Co. Holdings",
+        "broker": "E&P",
+        "action": "upgraded",
+        "rating": "positive",
+        "price_target": 1.3,
+        "previous_rating": "neutral",
+        "previous_price_target": 1.25
+      },
+      {
+        "symbol": "NEC",
+        "name": "Nine Entertainment Co. Holdings",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 1.25,
+        "previous_price_target": 1.2
+      },
+      {
+        "symbol": "NEC",
+        "name": "Nine Entertainment Co. Holdings",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 1.22,
+        "previous_price_target": 1.24
+      },
+      {
+        "symbol": "NOU",
+        "name": "Noumi",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.18,
+        "previous_price_target": 0.19
+      },
+      {
+        "symbol": "NTU",
+        "name": "Northern Minerals",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.05,
+        "previous_price_target": 0.05
+      },
+      {
+        "symbol": "NUZ",
+        "name": "Neurizon Therapeutics",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.28,
+        "previous_price_target": 0.39
+      },
+      {
+        "symbol": "OBM",
+        "name": "Ora Banda Mining",
+        "broker": "Macquarie",
+        "action": "downgraded",
+        "rating": "neutral",
+        "price_target": 1.4,
+        "previous_rating": "outperform",
+        "previous_price_target": 1.5
+      },
+      {
+        "symbol": "ORA",
+        "name": "Orora",
+        "broker": "JPMorgan",
+        "action": "downgraded",
+        "rating": "underweight",
+        "price_target": 1.9,
+        "previous_rating": "overweight",
+        "previous_price_target": 2.4
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 13.0
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "Jarden",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 11.65,
+        "previous_price_target": 11.6
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "Jefferies",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 12.87,
+        "previous_price_target": 13.23
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 12.5,
+        "previous_price_target": 12.7
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 11.25
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 11.0,
+        "previous_price_target": 10.8
+      },
+      {
+        "symbol": "PEN",
+        "name": "Peninsula Energy",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 1.29
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 4.6,
+        "previous_price_target": 4.55
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.25
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "CLSA",
+        "action": "upgraded",
+        "rating": "outperform",
+        "price_target": 5.35,
+        "previous_rating": "hold",
+        "previous_price_target": 4.15
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Goldman Sachs",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 3.0
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Jarden",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 2.5,
+        "previous_price_target": 2.4
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 4.5
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 5.25
+      },
+      {
+        "symbol": "PRU",
+        "name": "Perseus Mining",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 6.3,
+        "previous_price_target": 5.7
+      },
+      {
+        "symbol": "QPM",
+        "name": "QPM Energy",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.1
+      },
+      {
+        "symbol": "QUB",
+        "name": "Qube Holdings",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 5.2
+      },
+      {
+        "symbol": "RMD",
+        "name": "ResMed Inc.",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 50.0,
+        "previous_price_target": 51.0
+      },
+      {
+        "symbol": "RMD",
+        "name": "ResMed Inc.",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 47.5,
+        "previous_price_target": 49.2
+      },
+      {
+        "symbol": "RMD",
+        "name": "ResMed Inc.",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 47.73,
+        "previous_rating": "accumulate",
+        "previous_price_target": 47.04
+      },
+      {
+        "symbol": "RMD",
+        "name": "ResMed Inc.",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 43.7,
+        "previous_price_target": 44.56
+      },
+      {
+        "symbol": "RMS",
+        "name": "Ramelius Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 5.1
+      },
+      {
+        "symbol": "RMY",
+        "name": "RMA Global",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.1
+      },
+      {
+        "symbol": "RRL",
+        "name": "Regis Resources",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 9.5,
+        "previous_price_target": 8.55
+      },
+      {
+        "symbol": "S32",
+        "name": "South32",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 5.3
+      },
+      {
+        "symbol": "STK",
+        "name": "Strickland Metals",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.65
+      },
+      {
+        "symbol": "VAU",
+        "name": "Vault Minerals",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 7.75,
+        "previous_price_target": 7.25
+      },
+      {
+        "symbol": "VMM",
+        "name": "Viridis Mining and Minerals",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 4.7,
+        "previous_price_target": 3.5
+      },
+      {
+        "symbol": "VNT",
+        "name": "Ventia Services Group",
+        "broker": "RBC Capital Markets",
+        "action": "downgraded",
+        "rating": "sector perform",
+        "price_target": 6.0,
+        "previous_rating": "outperform"
+      },
+      {
+        "symbol": "WRK",
+        "name": "wrkr",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.18,
+        "previous_price_target": 0.16
+      }
+    ],
+    "2026-02-03": [
+      {
+        "symbol": "4DX",
+        "name": "4DMedical",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 4.5,
+        "previous_price_target": 2.5
+      },
+      {
+        "symbol": "A1M",
+        "name": "AIC Mines",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.8
+      },
+      {
+        "symbol": "AEL",
+        "name": "Amplitude Energy",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.6
+      },
+      {
+        "symbol": "ARF",
+        "name": "Arena REIT",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 4.05,
+        "previous_rating": "neutral",
+        "previous_price_target": 4.06
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 46.65,
+        "previous_price_target": 45.15
+      },
+      {
+        "symbol": "AZJ",
+        "name": "Aurizon Holdings",
+        "broker": "Jefferies",
+        "action": "downgraded",
+        "rating": "hold",
+        "price_target": 3.74,
+        "previous_rating": "buy"
+      },
+      {
+        "symbol": "B4P",
+        "name": "Beforepay Group",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.0
+      },
+      {
+        "symbol": "BPT",
+        "name": "Beach Energy",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 1.22
+      },
+      {
+        "symbol": "BRL",
+        "name": "Bathurst Resources",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.92,
+        "previous_price_target": 0.9
+      },
+      {
+        "symbol": "BUB",
+        "name": "Bubs Australia",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.17,
+        "previous_price_target": 0.2
+      },
+      {
+        "symbol": "CHC",
+        "name": "Charter Hall Group",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 26.5,
+        "previous_rating": "sell",
+        "previous_price_target": 19.93
+      },
+      {
+        "symbol": "CLW",
+        "name": "Charter Hall Long Wale REIT",
+        "broker": "UBS",
+        "action": "downgraded",
+        "rating": "sell",
+        "price_target": 3.75,
+        "previous_rating": "neutral",
+        "previous_price_target": 4.55
+      },
+      {
+        "symbol": "CNI",
+        "name": "Centuria Capital Group",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "neutral",
+        "price_target": 2.03,
+        "previous_rating": "sell",
+        "previous_price_target": 2.1
+      },
+      {
+        "symbol": "COF",
+        "name": "Centuria Office REIT",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "neutral",
+        "price_target": 1.03,
+        "previous_rating": "sell",
+        "previous_price_target": 1.2
+      },
+      {
+        "symbol": "COL",
+        "name": "Coles Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 25.0
+      },
+      {
+        "symbol": "CSL",
+        "name": "CSL",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 195.0
+      },
+      {
+        "symbol": "CSL",
+        "name": "CSL",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 225.0
+      },
+      {
+        "symbol": "CWY",
+        "name": "Cleanaway Waste Management",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.15
+      },
+      {
+        "symbol": "DXS",
+        "name": "Dexus",
+        "broker": "UBS",
+        "action": "downgraded",
+        "rating": "neutral",
+        "price_target": 7.34,
+        "previous_rating": "buy",
+        "previous_price_target": 8.6
+      },
+      {
+        "symbol": "ELV",
+        "name": "Elevra Lithium",
+        "broker": "Macquarie",
+        "action": "upgraded",
+        "rating": "outperform",
+        "price_target": 8.6,
+        "previous_rating": "neutral",
+        "previous_price_target": 8.5
+      },
+      {
+        "symbol": "EVN",
+        "name": "Evolution Mining",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "hold",
+        "price_target": 14.3,
+        "previous_rating": "trim",
+        "previous_price_target": 13.2
+      },
+      {
+        "symbol": "GL1",
+        "name": "Global Lithium Resources",
+        "broker": "Macquarie",
+        "action": "upgraded",
+        "rating": "outperform",
+        "price_target": 0.65,
+        "previous_rating": "neutral"
+      },
+      {
+        "symbol": "GNC",
+        "name": "Graincorp",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 6.8,
+        "previous_price_target": 7.6
+      },
+      {
+        "symbol": "GNC",
+        "name": "Graincorp",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 7.51,
+        "previous_price_target": 8.71
+      },
+      {
+        "symbol": "GNC",
+        "name": "Graincorp",
+        "broker": "CLSA",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 8.4,
+        "previous_price_target": 8.9
+      },
+      {
+        "symbol": "GNC",
+        "name": "Graincorp",
+        "broker": "Macquarie",
+        "action": "downgraded",
+        "rating": "neutral",
+        "price_target": 6.6,
+        "previous_rating": "outperform",
+        "previous_price_target": 8.3
+      },
+      {
+        "symbol": "GNC",
+        "name": "Graincorp",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "accumulate",
+        "price_target": 6.76,
+        "previous_price_target": 9.05
+      },
+      {
+        "symbol": "GNC",
+        "name": "Graincorp",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 8.6,
+        "previous_price_target": 9.35
+      },
+      {
+        "symbol": "GPT",
+        "name": "GPT Group",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 6.0,
+        "previous_rating": "neutral",
+        "previous_price_target": 5.55
+      },
+      {
+        "symbol": "HLO",
+        "name": "Helloworld Travel",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 1.9,
+        "previous_price_target": 1.93
+      },
+      {
+        "symbol": "IMA",
+        "name": "Image Resources NL",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 0.1,
+        "previous_price_target": 0.13
+      },
+      {
+        "symbol": "INA",
+        "name": "Ingenia Communities Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.0,
+        "previous_price_target": 6.24
+      },
+      {
+        "symbol": "IPH",
+        "name": "IPH",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 4.04
+      },
+      {
+        "symbol": "JHX",
+        "name": "James Hardie Industries Plc",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 37.0,
+        "previous_price_target": 30.5
+      },
+      {
+        "symbol": "KAR",
+        "name": "Karoon Energy",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 1.7
+      },
+      {
+        "symbol": "LTR",
+        "name": "Liontown",
+        "broker": "Macquarie",
+        "action": "upgraded",
+        "rating": "neutral",
+        "price_target": 1.7,
+        "previous_rating": "underperform"
+      },
+      {
+        "symbol": "MEI",
+        "name": "Meteoric Resources NL",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.4,
+        "previous_price_target": 0.35
+      },
+      {
+        "symbol": "MIN",
+        "name": "Mineral Resources",
+        "broker": "Ord Minnett",
+        "action": "upgraded",
+        "rating": "accumulate",
+        "price_target": 65.0,
+        "previous_rating": "hold",
+        "previous_price_target": 64.0
+      },
+      {
+        "symbol": "MVP",
+        "name": "Medical Developments International",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.84,
+        "previous_price_target": 0.85
+      },
+      {
+        "symbol": "NEM",
+        "name": "Newmont Corporation",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 190.0,
+        "previous_rating": "accumulate",
+        "previous_price_target": 162.0
+      },
+      {
+        "symbol": "NIC",
+        "name": "Nickel Industries",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 1.0,
+        "previous_price_target": 0.8
+      },
+      {
+        "symbol": "NST",
+        "name": "Northern Star Resources",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 33.0,
+        "previous_rating": "hold",
+        "previous_price_target": 26.0
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 14.0
+      },
+      {
+        "symbol": "PIQ",
+        "name": "Proteomics International Laboratories",
+        "broker": "Morgans",
+        "action": "downgraded",
+        "rating": "trim",
+        "price_target": 0.43,
+        "previous_rating": "hold"
+      },
+      {
+        "symbol": "PLS",
+        "name": "PLS Group",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "hold",
+        "price_target": 4.6,
+        "previous_rating": "trim"
+      },
+      {
+        "symbol": "PNR",
+        "name": "Pantoro Gold",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 6.04,
+        "previous_rating": "trim",
+        "previous_price_target": 5.0
+      },
+      {
+        "symbol": "REH",
+        "name": "Reece",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "sell",
+        "price_target": 13.0,
+        "previous_price_target": 11.5
+      },
+      {
+        "symbol": "RFF",
+        "name": "Rural Funds Group",
+        "broker": "UBS",
+        "action": "downgraded",
+        "rating": "neutral",
+        "price_target": 2.11,
+        "previous_rating": "buy",
+        "previous_price_target": 2.1
+      },
+      {
+        "symbol": "RGN",
+        "name": "Region Group",
+        "broker": "UBS",
+        "action": "downgraded",
+        "rating": "sell",
+        "price_target": 2.15,
+        "previous_rating": "neutral",
+        "previous_price_target": 2.4
+      },
+      {
+        "symbol": "RMS",
+        "name": "Ramelius Resources",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 5.76,
+        "previous_rating": "accumulate",
+        "previous_price_target": 5.5
+      },
+      {
+        "symbol": "RRL",
+        "name": "Regis Resources",
+        "broker": "Morgans",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 9.13,
+        "previous_rating": "hold",
+        "previous_price_target": 8.05
+      },
+      {
+        "symbol": "RWC",
+        "name": "Reliance Worldwide Corporation",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 4.15,
+        "previous_price_target": 4.35
+      },
+      {
+        "symbol": "SGH",
+        "name": "SGH",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 51.8,
+        "previous_price_target": 52.0
+      },
+      {
+        "symbol": "SLC",
+        "name": "Superloop",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.75
+      },
+      {
+        "symbol": "STO",
+        "name": "Santos",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 6.6
+      },
+      {
+        "symbol": "STX",
+        "name": "Strike Energy",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.15
+      },
+      {
+        "symbol": "VCX",
+        "name": "Vicinity Centres",
+        "broker": "UBS",
+        "action": "upgraded",
+        "rating": "buy",
+        "price_target": 2.8,
+        "previous_rating": "sell",
+        "previous_price_target": 2.42
+      },
+      {
+        "symbol": "WDS",
+        "name": "Woodside Energy Group",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 29.8,
+        "previous_price_target": 30.6
+      },
+      {
+        "symbol": "WOW",
+        "name": "Woolworths Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 30.75,
+        "previous_price_target": 29.0
+      },
+      {
+        "symbol": "WZR",
+        "name": "Wisr",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.07
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 210.0
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 230.3
+      }
+    ],
+    "2026-02-04": [
+      {
+        "symbol": "ALD",
+        "name": "Ampol",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 34.46
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 75.0
+      },
+      {
+        "symbol": "ANZ",
+        "name": "ANZ Group Holdings",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 36.0
+      },
+      {
+        "symbol": "AZJ",
+        "name": "Aurizon Holdings",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 3.77,
+        "previous_price_target": 3.7
+      },
+      {
+        "symbol": "BEN",
+        "name": "Bendigo and Adelaide Bank",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 10.0
+      },
+      {
+        "symbol": "BGL",
+        "name": "Bellevue Gold",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 2.0
+      },
+      {
+        "symbol": "BHP",
+        "name": "BHP Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 48.0
+      },
+      {
+        "symbol": "BML",
+        "name": "Boab Metals",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 1.76,
+        "previous_price_target": 1.08
+      },
+      {
+        "symbol": "BOQ",
+        "name": "Bank of Queensland",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 6.5
+      },
+      {
+        "symbol": "BPT",
+        "name": "Beach Energy",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 1.08
+      },
+      {
+        "symbol": "CBA",
+        "name": "Commonwealth Bank of Australia",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 120.0
+      },
+      {
+        "symbol": "CCP",
+        "name": "Credit Corp Group",
+        "broker": "E&P",
+        "action": "retained",
+        "rating": "positive",
+        "price_target": 22.88,
+        "previous_price_target": 26.35
+      },
+      {
+        "symbol": "CCP",
+        "name": "Credit Corp Group",
+        "broker": "Jefferies",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 17.0,
+        "previous_price_target": 19.65
+      },
+      {
+        "symbol": "CCP",
+        "name": "Credit Corp Group",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 19.6
+      },
+      {
+        "symbol": "CCP",
+        "name": "Credit Corp Group",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 19.35,
+        "previous_price_target": 21.5
+      },
+      {
+        "symbol": "COH",
+        "name": "Cochlear",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 300.0
+      },
+      {
+        "symbol": "CSC",
+        "name": "Capstone Copper Corp.",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 17.0
+      },
+      {
+        "symbol": "CYL",
+        "name": "Catalyst Metals",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 14.56,
+        "previous_price_target": 12.51
+      },
+      {
+        "symbol": "DPM",
+        "name": "DPM Metals Inc.",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 52.0
+      },
+      {
+        "symbol": "EVN",
+        "name": "Evolution Mining",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 10.2
+      },
+      {
+        "symbol": "FMG",
+        "name": "Fortescue",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 21.0
+      },
+      {
+        "symbol": "GHM",
+        "name": "Golden Horse Minerals",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 1.5,
+        "previous_price_target": 1.22
+      },
+      {
+        "symbol": "GLF",
+        "name": "Gemlife Communities Group",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.6
+      },
+      {
+        "symbol": "GMD",
+        "name": "Genesis Minerals",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 10.0,
+        "previous_price_target": 5.4
+      },
+      {
+        "symbol": "IMA",
+        "name": "Image Resources NL",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 0.1,
+        "previous_price_target": 0.13
+      },
+      {
+        "symbol": "JDO",
+        "name": "Judo Capital Holdings",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 2.0
+      },
+      {
+        "symbol": "LGI",
+        "name": "LGI",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 4.7,
+        "previous_price_target": 4.88
+      },
+      {
+        "symbol": "MAU",
+        "name": "Magnetic Resources NL",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 4.0,
+        "previous_price_target": 3.97
+      },
+      {
+        "symbol": "MEK",
+        "name": "Meeka Metals",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.4,
+        "previous_price_target": 0.3
+      },
+      {
+        "symbol": "NAB",
+        "name": "National Australia Bank",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 45.0
+      },
+      {
+        "symbol": "NEM",
+        "name": "Newmont Corporation",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 175.0
+      },
+      {
+        "symbol": "NHC",
+        "name": "New Hope Corporation",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 4.0
+      },
+      {
+        "symbol": "NST",
+        "name": "Northern Star Resources",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 31.0
+      },
+      {
+        "symbol": "NUF",
+        "name": "Nufarm",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 2.55
+      },
+      {
+        "symbol": "ORG",
+        "name": "Origin Energy",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 10.88,
+        "previous_price_target": 11.11
+      },
+      {
+        "symbol": "PMT",
+        "name": "PMET Resources Inc",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 0.95
+      },
+      {
+        "symbol": "PNI",
+        "name": "Pinnacle Investment Management Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 25.25,
+        "previous_price_target": 26.55
+      },
+      {
+        "symbol": "QOR",
+        "name": "Qoria",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.76
+      },
+      {
+        "symbol": "RFG",
+        "name": "Retail Food Group",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 2.0
+      },
+      {
+        "symbol": "RHC",
+        "name": "Ramsay Health Care",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 39.0
+      },
+      {
+        "symbol": "RMS",
+        "name": "Ramelius Resources",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 6.5,
+        "previous_price_target": 4.19
+      },
+      {
+        "symbol": "S32",
+        "name": "South32",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 4.6
+      },
+      {
+        "symbol": "SFR",
+        "name": "Sandfire Resources",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 19.6
+      },
+      {
+        "symbol": "SMI",
+        "name": "Santana Minerals",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 2.15,
+        "previous_price_target": 1.63
+      },
+      {
+        "symbol": "TLX",
+        "name": "Telix Pharmaceuticals",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 34.0
+      },
+      {
+        "symbol": "WBC",
+        "name": "Westpac Banking Corporation",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 35.0
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "CLSA",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 179.0,
+        "previous_price_target": 221.0
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "Jefferies",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 100.7,
+        "previous_price_target": 135.5
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 165.0,
+        "previous_price_target": 180.0
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 233.8,
+        "previous_price_target": 230.3
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 150.0,
+        "previous_price_target": 200.0
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 174.0
+      }
+    ],
+    "2026-02-05": [
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "CLSA",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 80.0
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "Jarden",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 75.0,
+        "previous_price_target": 80.2
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 72.5
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 86.5,
+        "previous_price_target": 87.1
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 75.8,
+        "previous_price_target": 76.0
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "Ord Minnett",
+        "action": "downgraded",
+        "rating": "accumulate",
+        "price_target": 70.0,
+        "previous_rating": "buy",
+        "previous_price_target": 73.0
+      },
+      {
+        "symbol": "AMC",
+        "name": "Amcor Plc",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 91.25
+      },
+      {
+        "symbol": "AOV",
+        "name": "Amotiv",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 12.56
+      },
+      {
+        "symbol": "AOV",
+        "name": "Amotiv",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 11.66
+      },
+      {
+        "symbol": "APE",
+        "name": "Eagers Automotive",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 29.98
+      },
+      {
+        "symbol": "ARB",
+        "name": "ARB Corporation",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 42.25
+      },
+      {
+        "symbol": "ARB",
+        "name": "ARB Corporation",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 35.8
+      },
+      {
+        "symbol": "ASG",
+        "name": "Autosports Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 4.85
+      },
+      {
+        "symbol": "AUE",
+        "name": "Aurum Resource",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 1.5
+      },
+      {
+        "symbol": "AZY",
+        "name": "Antipa Minerals",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 1.25
+      },
+      {
+        "symbol": "BAP",
+        "name": "Bapcor",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 2.05
+      },
+      {
+        "symbol": "BGA",
+        "name": "Bega Cheese",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 6.5
+      },
+      {
+        "symbol": "BHP",
+        "name": "BHP Group",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 55.5
+      },
+      {
+        "symbol": "BOE",
+        "name": "Boss Energy",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 2.0,
+        "previous_price_target": 2.05
+      },
+      {
+        "symbol": "BRG",
+        "name": "Breville Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 39.2
+      },
+      {
+        "symbol": "BWP",
+        "name": "BWP Trust",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 4.11,
+        "previous_price_target": 4.1
+      },
+      {
+        "symbol": "CAR",
+        "name": "CAR Group",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 42.55
+      },
+      {
+        "symbol": "CIP",
+        "name": "Centuria Industrial REIT",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.78,
+        "previous_price_target": 3.95
+      },
+      {
+        "symbol": "CKF",
+        "name": "Collins Foods",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 11.2
+      },
+      {
+        "symbol": "COF",
+        "name": "Centuria Office REIT",
+        "broker": "Bell Potter",
+        "action": "upgraded",
+        "rating": "hold",
+        "price_target": 1.05,
+        "previous_rating": "sell"
+      },
+      {
+        "symbol": "COL",
+        "name": "Coles Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 24.5
+      },
+      {
+        "symbol": "CQE",
+        "name": "Charter Hall Social Infrastructure REIT",
+        "broker": "Moelis Australia",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.55,
+        "previous_price_target": 3.39
+      },
+      {
+        "symbol": "CQR",
+        "name": "Charter Hall Retail REIT",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 4.2,
+        "previous_price_target": 4.12
+      },
+      {
+        "symbol": "DMP",
+        "name": "Domino's Pizza Enterprises",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 19.4
+      },
+      {
+        "symbol": "DRR",
+        "name": "Deterra Royalties",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 4.7,
+        "previous_price_target": 4.75
+      },
+      {
+        "symbol": "EDV",
+        "name": "Endeavour Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 3.4
+      },
+      {
+        "symbol": "FMG",
+        "name": "Fortescue",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 19.0
+      },
+      {
+        "symbol": "FPR",
+        "name": "FleetPartners Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 3.36
+      },
+      {
+        "symbol": "GMG",
+        "name": "Goodman Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 37.14,
+        "previous_price_target": 36.41
+      },
+      {
+        "symbol": "GYG",
+        "name": "Guzman Y Gomez",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 30.0
+      },
+      {
+        "symbol": "HUB",
+        "name": "HUB24",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 104.75
+      },
+      {
+        "symbol": "HUB",
+        "name": "HUB24",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 126.0,
+        "previous_price_target": 123.0
+      },
+      {
+        "symbol": "HVN",
+        "name": "Harvey Norman Holdings",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 7.6
+      },
+      {
+        "symbol": "IGO",
+        "name": "IGO",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 7.5
+      },
+      {
+        "symbol": "ING",
+        "name": "Inghams Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "underperform",
+        "price_target": 2.2
+      },
+      {
+        "symbol": "IOD",
+        "name": "IODM",
+        "broker": "Shaw and Partners",
+        "action": "initiated",
+        "rating": "buy",
+        "price_target": 0.23
+      },
+      {
+        "symbol": "JBH",
+        "name": "JB Hi-Fi",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 112.0
+      },
+      {
+        "symbol": "JIN",
+        "name": "Jumbo Interactive",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "hold",
+        "price_target": 10.8,
+        "previous_price_target": 12.8
+      },
+      {
+        "symbol": "JIN",
+        "name": "Jumbo Interactive",
+        "broker": "E&P",
+        "action": "retained",
+        "rating": "positive",
+        "price_target": 13.67,
+        "previous_price_target": 16.4
+      },
+      {
+        "symbol": "JIN",
+        "name": "Jumbo Interactive",
+        "broker": "JPMorgan",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 13.0
+      },
+      {
+        "symbol": "JIN",
+        "name": "Jumbo Interactive",
+        "broker": "Morgans",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 14.9,
+        "previous_price_target": 15.6
+      },
+      {
+        "symbol": "LLC",
+        "name": "LendLease Group",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 6.3,
+        "previous_price_target": 6.7
+      },
+      {
+        "symbol": "LOV",
+        "name": "Lovisa Holdings",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 38.45
+      },
+      {
+        "symbol": "MGR",
+        "name": "Mirvac Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 2.15,
+        "previous_price_target": 2.31
+      },
+      {
+        "symbol": "MMS",
+        "name": "McMillan Shakespeare",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 19.69
+      },
+      {
+        "symbol": "MP1",
+        "name": "Megaport",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 16.3
+      },
+      {
+        "symbol": "MTS",
+        "name": "Metcash",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 3.5
+      },
+      {
+        "symbol": "NCK",
+        "name": "Nick Scali",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 29.3
+      },
+      {
+        "symbol": "NEU",
+        "name": "Neuren Pharmaceuticals",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 22.0,
+        "previous_price_target": 25.0
+      },
+      {
+        "symbol": "NUF",
+        "name": "Nufarm",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 3.6
+      },
+      {
+        "symbol": "NWL",
+        "name": "Netwealth Group",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 28.9
+      },
+      {
+        "symbol": "NWL",
+        "name": "Netwealth Group",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 39.0,
+        "previous_price_target": 41.0
+      },
+      {
+        "symbol": "NXT",
+        "name": "NEXTDC",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 18.35
+      },
+      {
+        "symbol": "PDN",
+        "name": "Paladin Energy",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 14.45
+      },
+      {
+        "symbol": "PMV",
+        "name": "Premier Investments",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 16.2
+      },
+      {
+        "symbol": "PNI",
+        "name": "Pinnacle Investment Management Group",
+        "broker": "Ord Minnett",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 21.8,
+        "previous_price_target": 22.6
+      },
+      {
+        "symbol": "PNI",
+        "name": "Pinnacle Investment Management Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 18.65,
+        "previous_price_target": 18.4
+      },
+      {
+        "symbol": "REA",
+        "name": "REA Group",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 222.7
+      },
+      {
+        "symbol": "REP",
+        "name": "RAM Essential Services Property Fund",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.71,
+        "previous_price_target": 0.7
+      },
+      {
+        "symbol": "S32",
+        "name": "South32",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "overweight",
+        "price_target": 4.75
+      },
+      {
+        "symbol": "SCG",
+        "name": "Scentre Group",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 4.2,
+        "previous_price_target": 4.0
+      },
+      {
+        "symbol": "SDR",
+        "name": "SiteMinder",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 8.4
+      },
+      {
+        "symbol": "SEK",
+        "name": "SEEK",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 29.95
+      },
+      {
+        "symbol": "SFR",
+        "name": "Sandfire Resources",
+        "broker": "Morgan Stanley",
+        "action": "retained",
+        "rating": "underweight",
+        "price_target": 16.2,
+        "previous_price_target": 16.15
+      },
+      {
+        "symbol": "SGP",
+        "name": "Stockland",
+        "broker": "UBS",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.82,
+        "previous_price_target": 6.1
+      },
+      {
+        "symbol": "SIG",
+        "name": "Sigma Healthcare",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 3.0
+      },
+      {
+        "symbol": "SIQ",
+        "name": "Smartgroup Corporation",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 8.99
+      },
+      {
+        "symbol": "STM",
+        "name": "Sunstone Metals",
+        "broker": "Shaw and Partners",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 0.07
+      },
+      {
+        "symbol": "STO",
+        "name": "Santos",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 7.77
+      },
+      {
+        "symbol": "SUL",
+        "name": "Super Retail Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 15.7
+      },
+      {
+        "symbol": "TPW",
+        "name": "Temple & Webster Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 24.15
+      },
+      {
+        "symbol": "TTM",
+        "name": "Titan Minerals",
+        "broker": "Canaccord Genuity",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 1.95
+      },
+      {
+        "symbol": "TWE",
+        "name": "Treasury Wine Estates",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 5.2
+      },
+      {
+        "symbol": "UNI",
+        "name": "Universal Store Holdings",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 10.2
+      },
+      {
+        "symbol": "VFY",
+        "name": "Vitrafy Life Sciences",
+        "broker": "Bell Potter",
+        "action": "retained",
+        "rating": "speculative buy",
+        "price_target": 2.25,
+        "previous_price_target": 2.28
+      },
+      {
+        "symbol": "WDS",
+        "name": "Woodside Energy Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 25.0
+      },
+      {
+        "symbol": "WES",
+        "name": "Wesfarmers",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "outperform",
+        "price_target": 91.0
+      },
+      {
+        "symbol": "WOW",
+        "name": "Woolworths Group",
+        "broker": "Macquarie",
+        "action": "retained",
+        "rating": "neutral",
+        "price_target": 28.5
+      },
+      {
+        "symbol": "WTC",
+        "name": "Wisetech Global",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 109.15
+      },
+      {
+        "symbol": "XRO",
+        "name": "Xero",
+        "broker": "Citi",
+        "action": "retained",
+        "rating": "buy",
+        "price_target": 144.8,
+        "previous_price_target": 210.0
+      }
+    ]
+  }
+}

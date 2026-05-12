@@ -412,6 +412,24 @@ def main():
     print(f"\n{'=' * 60}")
     print(f"Daily update complete — {datetime.now().isoformat(timespec='seconds')}")
 
+    # ── Git commit & push data changes (triggers GitHub Pages deploy) ──────
+    try:
+        import subprocess
+        repo = Path(__file__).resolve().parent
+        subprocess.run(["git", "add", "data/"], cwd=repo, capture_output=True)
+        result = subprocess.run(
+            ["git", "commit", "-m", f"Daily update {date.today()}"],
+            cwd=repo, capture_output=True, text=True
+        )
+        # "nothing to commit" is not an error
+        if result.returncode == 0 or "nothing to commit" in result.stdout + result.stderr:
+            subprocess.run(["git", "push"], cwd=repo, capture_output=True)
+            print("  ✓ Data changes pushed to GitHub")
+        else:
+            print(f"  ⚠ git commit issue: {result.stderr.strip()}")
+    except Exception as e:
+        print(f"  ⚠ git push skipped: {e}")
+
 
 if __name__ == "__main__":
     main()

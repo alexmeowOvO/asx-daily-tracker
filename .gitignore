@@ -27,5 +27,6 @@ config.py
 *.log
 logs/
 
-# Data output
-data/
+# Data output — keep the main JSON files, exclude bulk subdirectories
+data/history/
+data/broker_moves/

@@ -1,0 +1,96 @@
+{
+  "last_updated": "2026-02-28T06:30:15.320634",
+  "stocks": [
+    {
+      "symbol": "CBA.AX",
+      "name": "Commonwealth Bank of Australia",
+      "price": 174.62,
+      "change": -2.6500000000000057,
+      "change_percent": -1.4948947932532326,
+      "timestamp": "2026-02-28T06:30:06.875495",
+      "source_url": "https://finance.yahoo.com/quote/CBA.AX"
+    },
+    {
+      "symbol": "BHP.AX",
+      "name": "BHP Group Limited",
+      "price": 58.41,
+      "change": 0.6599999999999966,
+      "change_percent": 1.142857142857137,
+      "timestamp": "2026-02-28T06:30:07.933285",
+      "source_url": "https://finance.yahoo.com/quote/BHP.AX"
+    },
+    {
+      "symbol": "NAB.AX",
+      "name": "National Australia Bank Limited",
+      "price": 49.02,
+      "change": -0.01999999999999602,
+      "change_percent": -0.040783034257740665,
+      "timestamp": "2026-02-28T06:30:08.724522",
+      "source_url": "https://finance.yahoo.com/quote/NAB.AX"
+    },
+    {
+      "symbol": "WBC.AX",
+      "name": "Westpac Banking Corporation",
+      "price": 42.54,
+      "change": -0.17999999999999972,
+      "change_percent": -0.42134831460674094,
+      "timestamp": "2026-02-28T06:30:09.580331",
+      "source_url": "https://finance.yahoo.com/quote/WBC.AX"
+    },
+    {
+      "symbol": "ANZ.AX",
+      "name": "ANZ Group Holdings Limited",
+      "price": 40.04,
+      "change": 0.060000000000002274,
+      "change_percent": 0.15007503751876508,
+      "timestamp": "2026-02-28T06:30:10.394567",
+      "source_url": "https://finance.yahoo.com/quote/ANZ.AX"
+    },
+    {
+      "symbol": "CSL.AX",
+      "name": "CSL Limited",
+      "price": 146.76,
+      "change": 0.7399999999999807,
+      "change_percent": 0.5067798931653066,
+      "timestamp": "2026-02-28T06:30:11.507912",
+      "source_url": "https://finance.yahoo.com/quote/CSL.AX"
+    },
+    {
+      "symbol": "WES.AX",
+      "name": "Wesfarmers Limited",
+      "price": 79.62,
+      "change": -0.4399999999999977,
+      "change_percent": -0.5495878091431398,
+      "timestamp": "2026-02-28T06:30:12.497271",
+      "source_url": "https://finance.yahoo.com/quote/WES.AX"
+    },
+    {
+      "symbol": "MQG.AX",
+      "name": "Macquarie Group Limited",
+      "price": 213.48,
+      "change": 3.9299999999999784,
+      "change_percent": 1.8754473872584005,
+      "timestamp": "2026-02-28T06:30:13.479928",
+      "source_url": "https://finance.yahoo.com/quote/MQG.AX"
+    },
+    {
+      "symbol": "WOW.AX",
+      "name": "Woolworths Group Limited",
+      "price": 36.0,
+      "change": -0.3500000000000014,
+      "change_percent": -0.9628610729023422,
+      "timestamp": "2026-02-28T06:30:14.311888",
+      "source_url": "https://finance.yahoo.com/quote/WOW.AX"
+    },
+    {
+      "symbol": "FMG.AX",
+      "name": "Fortescue Ltd",
+      "price": 21.14,
+      "change": 0.28999999999999915,
+      "change_percent": 1.3908872901678615,
+      "timestamp": "2026-02-28T06:30:15.076961",
+      "source_url": "https://finance.yahoo.com/quote/FMG.AX"
+    }
+  ],
+  "count": 10
+}

@@ -1,0 +1,120 @@
+{
+  "articles": [
+    {
+      "date": "2026-02-28",
+      "title": "Evening Wrap: ASX 200 closes week at record as rare earths stocks rally, LYC +10%, Coles dumps 7% on earnings",
+      "filename": "evening_wrap_20260228.json"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "Evening Wrap: ASX 200 closes week at record as rare earths stocks rally, LYC +10%, Coles dumps 7% on earnings",
+      "filename": "evening_wrap_20260227.json"
+    },
+    {
+      "date": "2026-02-26",
+      "title": "Evening Wrap: ASX 200 smashes record as WiseTech leads Tech rally, Woolworths surges 13% on strong earnings",
+      "filename": "evening_wrap_20260226.json"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Evening Wrap: ASX 200 flat as surging lithium and energy stocks balance bloodbath in tech, insurance — PLS +8% vs PME -6%",
+      "filename": "evening_wrap_20260225.json"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Evening Wrap: ASX 200 flat as surging lithium and energy stocks balance bloodbath in tech, insurance — PLS +8% vs PME -6%",
+      "filename": "evening_wrap_20260224.json"
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Evening Wrap: ASX 200 slips on Trump tariff tumult, tumbling tech, as gold and silver stocks regain their shine – NEM +5% vs PME -9%",
+      "filename": "evening_wrap_20260223.json"
+    },
+    {
+      "date": "2026-02-21",
+      "title": "Evening Wrap: ASX 200 slips in deluge of earnings, Middle East uncertainty, TLX +14% vs MIN -5% on results",
+      "filename": "evening_wrap_20260221.json"
+    },
+    {
+      "date": "2026-02-20",
+      "title": "Evening Wrap: ASX 200 slips in deluge of earnings, Middle East uncertainty, TLX +14% vs MIN -5% on results",
+      "filename": "evening_wrap_20260220.json"
+    },
+    {
+      "date": "2026-02-19",
+      "title": "Evening Wrap: ASX 200 hits fresh highs as TLS jumps 3.6% on dividend and buyback, ZIP crashes -34% on result, WDS +4.4%",
+      "filename": "evening_wrap_20260219.json"
+    },
+    {
+      "date": "2026-02-18",
+      "title": "Evening Wrap: ASX 200 up as BHP hits record on profit beat, JB Hi-Fi adds 8.1% on broker upgrades, PME bounces 7.7%",
+      "filename": "evening_wrap_20260218.json"
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Evening Wrap: ASX 200 ticks higher as tech rebounds from AI sell-off, WTC up 12.8% as Fortescue sinks 4.7% on iron ore slide",
+      "filename": "evening_wrap_20260217.json"
+    },
+    {
+      "date": "2026-02-14",
+      "title": "Evening Wrap: ASX 200 slides as Friday the 13th spooks Tech, Healthcare – COH -18.9%, WTC -10.4%",
+      "filename": "evening_wrap_20260214.json"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Evening Wrap: ASX 200 baulks at record despite ANZ surge, results hammer Pro Medicus -24%, AMP -27%",
+      "filename": "evening_wrap_20260213.json"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Evening Wrap: ASX 200 baulks at record despite ANZ surge, results hammer Pro Medicus -24%, AMP -27%",
+      "filename": "evening_wrap_20260212.json"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Evening Wrap: ASX 200 in sight of record as CBA jumps 7% on earnings, CSL slides another 4.6%",
+      "filename": "evening_wrap_20260211.json"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Evening Wrap: ASX 200 flat, tech stocks extend gains, CSL dumps 5% as CEO jumps ship",
+      "filename": "evening_wrap_20260210.json"
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Evening Wrap: ASX 200 surges 161 points as Wall Street tech rebound lifts local software stocks, CAR +10% on results",
+      "filename": "evening_wrap_20260209.json"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Evening Wrap: ASX 200 dives 180 points as global tech meltdown deepens and uranium and silver stocks tumble, WEB -30% on audit",
+      "filename": "evening_wrap_20260206.json"
+    },
+    {
+      "date": "2026-02-05",
+      "title": "Evening Wrap: ASX 200 slips on falling silver, lithium and uranium prices, defence stocks tumble: DRO -8.3% and ELS -17%",
+      "filename": "evening_wrap_20260205.json"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "Evening Wrap: ASX 200 gains despite tech wipe out, XRO tumbles 16% and WTC 11% as investors flee sector",
+      "filename": "evening_wrap_20260204.json"
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Evening Wrap: ASX 200 edges higher despite first RBA hike in 2-years, NEU and CCP tumble over 10% on updates",
+      "filename": "evening_wrap_20260203.json"
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Evening Wrap: ASX 200 slumps on panic selling in gold and silver stocks, NEM -10%, NST -8%",
+      "filename": "evening_wrap_20260202.json"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "Evening Wrap: ASX 200 slips as tech gets rekt — gold and copper stocks’ dream run continues as lithium’s rally stalls",
+      "filename": "evening_wrap_20260130.json"
+    }
+  ],
+  "count": 23
+}
