@@ -28,6 +28,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 os.chdir(SCRIPT_DIR)
 sys.path.insert(0, str(SCRIPT_DIR))
 
+from utils import _fix_mojibake, _clean_article_content
+
 DATA_DIR = Path("data")
 BASE_URL = "https://www.marketindex.com.au"
 CATEGORY_URL = f"{BASE_URL}/news/category/market-wraps"
@@ -43,17 +45,6 @@ MONTH_MAP = {
 # ═══════════════════════════════════════════════════════════════════════════════
 # STEP 1 — Evening Wrap scrape (nodriver)
 # ═══════════════════════════════════════════════════════════════════════════════
-
-def _fix_mojibake(text: str) -> str:
-    if not text:
-        return text
-    suspects = ("\xe2\x80\x99", "\xe2\x80\x9c", "\xe2\x80", "\xc2", "\xc3", "\xf0\x9f")
-    if not any(s in text for s in suspects):
-        return text
-    try:
-        return text.encode("cp1252").decode("utf-8")
-    except (UnicodeEncodeError, UnicodeDecodeError):
-        return text
 
 
 def parse_article_date(raw_text: str) -> str:
@@ -72,31 +63,8 @@ def parse_article_date(raw_text: str) -> str:
         day = int(m.group(1))
         month = MONTH_MAP.get(m.group(2).lower())
         if month:
-            year = 2025 if month > 5 else 2026
-            return f"{year:04d}-{month:02d}-{day:02d}"
+            return f"{date.today().year:04d}-{month:02d}-{day:02d}"
     return date.today().isoformat()
-
-
-def _clean_article_content(content: str) -> str:
-    if not content:
-        return content
-    image_pattern = r"\[IMAGE:\d+\]"
-    more_match = re.search(r"\+\d+ more\n+", content)
-    if more_match:
-        content = content[more_match.end():]
-    for pat in [r"The S&P/ASX \d+", r"The ASX \d+", r"Australian shares"]:
-        match = re.search(pat, content, re.IGNORECASE)
-        if match:
-            before = content[:match.start()]
-            markers_before = re.findall(image_pattern, before)
-            content = content[match.start():]
-            if markers_before:
-                content = "\n\n".join(markers_before) + "\n\n" + content
-            break
-    author_match = re.search(r"\nABOUT THE AUTHOR\n", content, re.IGNORECASE)
-    if author_match:
-        content = content[:author_match.start()]
-    return content.strip()
 
 
 async def _extract_content_with_images(tab) -> tuple[str, list[str]]:
@@ -277,7 +245,7 @@ def _fetch_stock_prices():
 # STEP 3 — Gemini summary
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def _summarize_one(article: dict, date_slug: str, filepath: Path) -> bool:
+def _summarize_one(article: dict, date_slug: str) -> bool:
     """Summarize a single article. Returns True on success, False on skip,
     raises on quota exhaustion."""
     from config import GEMINI_API_KEY, MY_STOCKS
@@ -328,7 +296,7 @@ def _generate_summary(article_date_str: str | None):
             else:
                 print(f"  [today] {article['title'][:65]}...")
                 try:
-                    _summarize_one(article, date_slug, filepath)
+                    _summarize_one(article, date_slug)
                 except Exception as e:
                     msg = str(e)
                     if "RESOURCE_EXHAUSTED" in msg or "429" in msg:
@@ -361,7 +329,7 @@ def _generate_summary(article_date_str: str | None):
         print(f"  [backfill {idx}/{total}] {date_slug} — {art['title'][:60]}...")
 
         try:
-            if _summarize_one(art, date_slug, fp):
+            if _summarize_one(art, date_slug):
                 done += 1
         except Exception as e:
             msg = str(e)
@@ -479,8 +447,11 @@ def main():
         )
         # "nothing to commit" is not an error
         if result.returncode == 0 or "nothing to commit" in result.stdout + result.stderr:
-            subprocess.run(["git", "push"], cwd=repo, capture_output=True)
-            print("  ✓ Data changes pushed to GitHub")
+            push = subprocess.run(["git", "push"], cwd=repo, capture_output=True, text=True)
+            if push.returncode == 0:
+                print("  ✓ Data changes pushed to GitHub")
+            else:
+                print(f"  ⚠ git push failed: {push.stderr.strip()}")
         else:
             print(f"  ⚠ git commit issue: {result.stderr.strip()}")
     except Exception as e:

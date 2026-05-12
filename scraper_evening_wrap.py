@@ -14,6 +14,7 @@ from datetime import datetime
 from typing import Optional, List
 
 from playwright.sync_api import sync_playwright, Page, Browser
+from utils import _fix_mojibake, _clean_article_content
 
 
 @dataclass
@@ -69,71 +70,12 @@ class EveningWrapScraper:
         return False
 
     def _fix_mojibake(self, text: str) -> str:
-        """
-        Repair common UTF-8-as-cp1252 mojibake sequences.
-
-        This fixes artifacts like "â€™" -> "'" and "ðŸ'ª" -> "💪".
-        """
-        if not text:
-            return text
-
-        suspects = ("\xe2\x80\x99", "\xe2\x80\x9c", "\xe2\x80", "\xc2", "\xc3", "\xf0\x9f")
-        if not any(s in text for s in suspects):
-            return text
-
-        try:
-            return text.encode("cp1252").decode("utf-8")
-        except (UnicodeEncodeError, UnicodeDecodeError):
-            return text
+        """Repair common UTF-8-as-cp1252 mojibake sequences."""
+        return _fix_mojibake(text)
 
     def _clean_article_content(self, content: str) -> str:
-        """
-        Clean article content by removing metadata and keeping only the article body.
-
-        Removes: read time, share buttons, mentioned stocks section, etc.
-        Keeps: Content starting from the actual article body after metadata.
-        Preserves: [IMAGE:N] markers throughout.
-        """
-        if not content:
-            return content
-
-        # Extract all image markers and their positions relative to text
-        image_pattern = r'\[IMAGE:\d+\]'
-
-        # The article has metadata like "MENTIONED\n\n29M\n$792.9M..." followed by "+15 more"
-        # The actual article content starts AFTER this section
-        # Look for "+N more" pattern which marks end of MENTIONED section
-        more_match = re.search(r"\+\d+ more\n+", content)
-        if more_match:
-            content = content[more_match.end():]
-
-        # Now find the actual article start (but keep image markers before it)
-        patterns = [
-            r"The S&P/ASX \d+",  # "The S&P/ASX 200 closed..."
-            r"The ASX \d+",      # "The ASX 200..."
-            r"Australian shares",  # Alternative opening
-        ]
-
-        for pattern in patterns:
-            match = re.search(pattern, content, re.IGNORECASE)
-            if match:
-                # Keep any image markers that appear before the article start
-                before_content = content[:match.start()]
-                image_markers_before = re.findall(image_pattern, before_content)
-                content = content[match.start():]
-                # Prepend image markers
-                if image_markers_before:
-                    content = "\n\n".join(image_markers_before) + "\n\n" + content
-                break
-
-        # Remove only the author bio and related news at the very end
-        # Keep: Interesting Movers, Broker Moves, Scans sections
-        # Remove: ABOUT THE AUTHOR and everything after
-        author_match = re.search(r"\nABOUT THE AUTHOR\n", content, re.IGNORECASE)
-        if author_match:
-            content = content[:author_match.start()]
-
-        return content.strip()
+        """Clean article content — strip metadata, author bio; keep [IMAGE:N] markers."""
+        return _clean_article_content(content)
 
     def _is_valid_chart_image(self, img) -> Optional[str]:
         """Check if an image element is a valid chart and return its URL."""
@@ -430,3 +372,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

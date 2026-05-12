@@ -47,13 +47,17 @@ def save_stocks_json(stocks: List[Stock]) -> int:
     with open(STOCKS_JSON, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    # Also save to history with timestamp
+    # Also save to history with timestamp, keeping only the last 30 files
     from config import HISTORY_DIR
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     history_file = f"{HISTORY_DIR}/stocks_{timestamp}.json"
 
     with open(history_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+    old_files = sorted(Path(HISTORY_DIR).glob("stocks_*.json"))[:-30]
+    for f in old_files:
+        f.unlink()
 
     print(f"[OK] Saved {len(stocks)} stocks to {STOCKS_JSON}")
     print(f"[OK] Archived to {history_file}")
