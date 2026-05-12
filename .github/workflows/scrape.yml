@@ -1,73 +1,11 @@
-name: Daily Scrape
+name: Daily Scrape (DISABLED — now runs locally via daily_update.py + launchd)
 
 on:
-  schedule:
-    # 5pm Perth time (AWST = UTC+8), so 9am UTC
-    - cron: '0 9 * * 1-5'  # Monday to Friday only (ASX trading days)
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:  # manual only; schedule removed
 
 jobs:
   scrape:
+    if: false  # permanently disabled
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          playwright install chromium
-
-      - name: Run Evening Wrap scraper
-        run: python scraper_evening_wrap.py
-
-      - name: Run stock price scraper
-        run: python scraper_yfinance.py
-
-      - name: Generate AI summary
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -c "
-          from summarizer import load_article, generate_summary, save_summary
-          import os
-
-          api_key = os.environ.get('GEMINI_API_KEY')
-          if not api_key:
-              print('No GEMINI_API_KEY, skipping summary')
-              exit(0)
-
-          article = load_article()
-          if not article:
-              print('No article found')
-              exit(0)
-
-          if article.get('summary'):
-              print('Summary already exists')
-              exit(0)
-
-          print('Generating summary...')
-          summary = generate_summary(article, api_key)
-
-          # Get date from article file
-          from pathlib import Path
-          files = sorted(Path('data').glob('evening_wrap_*.json'), reverse=True)
-          if files:
-              date = files[0].stem.replace('evening_wrap_', '')
-              save_summary(date, summary)
-              print('Summary saved')
-          "
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/
-          git diff --staged --quiet || git commit -m "Daily scrape $(date -u +%Y-%m-%d)"
-          git push
+      - run: echo "This workflow is disabled. Scraping now runs on the local Mac via daily_update.py and launchd."
