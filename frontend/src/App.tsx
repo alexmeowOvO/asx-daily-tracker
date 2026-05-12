@@ -11,6 +11,8 @@ import type {
 
 // Static mode: when deployed (production build), read from static JSON files
 const isStatic = import.meta.env.PROD;
+// Base URL for static assets (e.g. '/asx-daily-tracker/' on GitHub Pages)
+const BASE = import.meta.env.BASE_URL;
 
 function App() {
   const [stocks, setStocks] = useState<StocksResponse | null>(null);
@@ -33,7 +35,7 @@ function App() {
     try {
       const dateClean = date.replace(/-/g, '');
       const url = isStatic
-        ? `/data/evening_wrap_${dateClean}.json`
+        ? `${BASE}data/evening_wrap_${dateClean}.json`
         : `/api/evening-wrap/${date}`;
       const res = await fetch(url);
       if (res.ok) {
@@ -96,13 +98,13 @@ function App() {
         const [stocksRes, wrapListRes, historyRes, myStocksRes, myHistoryRes, holdingsRes, dailyPnLRes] = await Promise.all(
           isStatic
             ? [
-                fetch('/data/stocks.json'),
-                fetch('/data/evening_wrap_index.json'),
-                fetch('/data/stocks_history_10d.json'),
-                fetch('/data/my_stocks.json'),
-                fetch('/data/my_stocks_history_10d.json'),
-                fetch('/data/my_holdings.json'),
-                fetch('/data/daily_pnl.json'),
+                fetch(`${BASE}data/stocks.json`),
+                fetch(`${BASE}data/evening_wrap_index.json`),
+                fetch(`${BASE}data/stocks_history_10d.json`),
+                fetch(`${BASE}data/my_stocks.json`),
+                fetch(`${BASE}data/my_stocks_history_10d.json`),
+                fetch(`${BASE}data/my_holdings.json`),
+                fetch(`${BASE}data/daily_pnl.json`),
               ]
             : [
                 fetch('/api/stocks'),
