@@ -381,6 +381,56 @@ def _generate_summary(article_date_str: str | None):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
+# SYNC — Copy data/ → frontend/public/data/ for static GitHub Pages serving
+# ═══════════════════════════════════════════════════════════════════════════════
+
+def _sync_public_data():
+    """Mirror crawler/data/ into frontend/public/data/ and rebuild the index."""
+    import glob
+    import shutil
+
+    public_data = SCRIPT_DIR / "frontend" / "public" / "data"
+    public_data.mkdir(parents=True, exist_ok=True)
+
+    # Copy all evening_wrap JSON files
+    count = 0
+    for src in sorted(DATA_DIR.glob("evening_wrap_*.json")):
+        dst = public_data / src.name
+        if not dst.exists() or src.stat().st_mtime > dst.stat().st_mtime:
+            shutil.copy2(src, dst)
+            count += 1
+
+    # Copy static data files
+    for name in ["stocks.json", "my_stocks.json", "stocks_history_10d.json",
+                 "my_stocks_history_10d.json", "daily_pnl.json", "my_holdings.json"]:
+        src = DATA_DIR / name
+        if src.exists():
+            shutil.copy2(src, public_data / name)
+
+    # Rebuild evening_wrap_index.json
+    articles = []
+    for fp in sorted(DATA_DIR.glob("evening_wrap_*.json"), reverse=True):
+        try:
+            with open(fp, encoding="utf-8") as f:
+                d = json.load(f)
+            articles.append({
+                "filename": fp.name,
+                "date": d.get("date", ""),
+                "title": d.get("title", ""),
+                "url": d.get("url", ""),
+            })
+        except Exception:
+            pass
+
+    index_path = public_data / "evening_wrap_index.json"
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump({"articles": articles}, f, ensure_ascii=False, indent=2)
+
+    print(f"\n[Sync] {count} new article(s) copied → frontend/public/data/, "
+          f"index rebuilt ({len(articles)} articles)")
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # Main
 # ═══════════════════════════════════════════════════════════════════════════════
 
@@ -412,11 +462,17 @@ def main():
     print(f"\n{'=' * 60}")
     print(f"Daily update complete — {datetime.now().isoformat(timespec='seconds')}")
 
+    # ── Sync data → frontend/public/data/ (for GitHub Pages static serving) ─
+    try:
+        _sync_public_data()
+    except Exception as e:
+        print(f"  ⚠ sync_public_data skipped: {e}")
+
     # ── Git commit & push data changes (triggers GitHub Pages deploy) ──────
     try:
         import subprocess
         repo = Path(__file__).resolve().parent
-        subprocess.run(["git", "add", "data/"], cwd=repo, capture_output=True)
+        subprocess.run(["git", "add", "data/", "frontend/public/data/"], cwd=repo, capture_output=True)
         result = subprocess.run(
             ["git", "commit", "-m", f"Daily update {date.today()}"],
             cwd=repo, capture_output=True, text=True
