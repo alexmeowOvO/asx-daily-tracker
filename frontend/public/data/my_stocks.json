@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T17:00:24.519692",
+  "last_updated": "2026-05-13T18:23:10.138099",
   "stocks": [
     {
       "symbol": "ZIP.AX",
@@ -7,7 +7,7 @@
       "price": 2.44,
       "change": -0.020000000000000018,
       "change_percent": -0.8130081300813016,
-      "timestamp": "2026-05-13T17:00:20.839656",
+      "timestamp": "2026-05-13T18:23:07.129538",
       "source_url": "https://finance.yahoo.com/quote/ZIP.AX"
     },
     {
@@ -16,7 +16,7 @@
       "price": 1.265,
       "change": 0.08999999999999986,
       "change_percent": 7.6595744680850935,
-      "timestamp": "2026-05-13T17:00:21.949560",
+      "timestamp": "2026-05-13T18:23:07.909324",
       "source_url": "https://finance.yahoo.com/quote/APX.AX"
     },
     {
@@ -25,7 +25,7 @@
       "price": 0.24,
       "change": 0.0050000000000000044,
       "change_percent": 2.1276595744680873,
-      "timestamp": "2026-05-13T17:00:23.060525",
+      "timestamp": "2026-05-13T18:23:09.189073",
       "source_url": "https://finance.yahoo.com/quote/NVX.AX"
     },
     {
@@ -34,7 +34,7 @@
       "price": 3.22,
       "change": 0.040000000000000036,
       "change_percent": 1.2578616352201268,
-      "timestamp": "2026-05-13T17:00:24.140149",
+      "timestamp": "2026-05-13T18:23:09.954178",
       "source_url": "https://finance.yahoo.com/quote/DRO.AX"
     }
   ],
