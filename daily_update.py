@@ -249,6 +249,7 @@ def _summarize_one(article: dict, date_slug: str) -> bool:
     """Summarize a single article. Returns True on success, False on skip,
     raises on quota exhaustion."""
     from config import GEMINI_API_KEY, MY_STOCKS
+    from summarizer import generate_summary, format_content, extract_broker_moves, save_summary, save_broker_moves
 
     if article.get("summary"):
         return False  # already has one
@@ -270,13 +271,6 @@ def _generate_summary(article_date_str: str | None):
     """Summarise today's article (if new) then backfill any missing summaries
     oldest-first until the Gemini daily quota is exhausted."""
     from config import GEMINI_API_KEY, MY_STOCKS
-    from summarizer import (
-        generate_summary,
-        format_content,
-        extract_broker_moves,
-        save_summary,
-        save_broker_moves,
-    )
 
     print("\n[Step 3] Gemini summary + backfill")
 
