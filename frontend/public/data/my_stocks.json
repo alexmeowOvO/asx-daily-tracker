@@ -1,40 +1,40 @@
 {
-  "last_updated": "2026-05-14T17:00:45.972414",
+  "last_updated": "2026-05-15T17:00:30.019805",
   "stocks": [
     {
       "symbol": "ZIP.AX",
       "name": "Zip Co Limited",
-      "price": 2.4,
+      "price": 2.36,
       "change": -0.040000000000000036,
-      "change_percent": -1.6393442622950833,
-      "timestamp": "2026-05-14T17:00:42.064765",
+      "change_percent": -1.6666666666666683,
+      "timestamp": "2026-05-15T17:00:27.439197",
       "source_url": "https://finance.yahoo.com/quote/ZIP.AX"
     },
     {
       "symbol": "APX.AX",
       "name": "Appen Limited",
-      "price": 1.195,
-      "change": -0.06999999999999984,
-      "change_percent": -5.533596837944652,
-      "timestamp": "2026-05-14T17:00:43.383309",
+      "price": 1.225,
+      "change": 0.030000000000000027,
+      "change_percent": 2.510460251046027,
+      "timestamp": "2026-05-15T17:00:28.190793",
       "source_url": "https://finance.yahoo.com/quote/APX.AX"
     },
     {
       "symbol": "NVX.AX",
       "name": "NOVONIX Limited",
-      "price": 0.24,
-      "change": 0.0,
-      "change_percent": 0.0,
-      "timestamp": "2026-05-14T17:00:44.367629",
+      "price": 0.23,
+      "change": -0.009999999999999981,
+      "change_percent": -4.166666666666659,
+      "timestamp": "2026-05-15T17:00:28.991589",
       "source_url": "https://finance.yahoo.com/quote/NVX.AX"
     },
     {
       "symbol": "DRO.AX",
       "name": "DroneShield Limited",
-      "price": 3.18,
-      "change": -0.040000000000000036,
-      "change_percent": -1.2422360248447215,
-      "timestamp": "2026-05-14T17:00:45.615829",
+      "price": 3.27,
+      "change": 0.08999999999999986,
+      "change_percent": 2.8301886792452784,
+      "timestamp": "2026-05-15T17:00:29.773611",
       "source_url": "https://finance.yahoo.com/quote/DRO.AX"
     }
   ],
