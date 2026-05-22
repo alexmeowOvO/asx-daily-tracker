@@ -3,7 +3,13 @@ Evening Wrap Scraper - Scrapes daily Evening Wrap articles from Market Index.
 
 Website: https://www.marketindex.com.au/news
 Target: Evening Wrap articles published daily
+
+NOTE: Legacy scraper. The active production path is daily_update.py (nodriver).
+Playwright is imported lazily so this module can be imported even in venvs
+without playwright installed.
 """
+
+from __future__ import annotations
 
 import json
 import os
@@ -11,10 +17,12 @@ import re
 import time
 from dataclasses import asdict, dataclass
 from datetime import datetime
-from typing import Optional, List
+from typing import Optional, List, TYPE_CHECKING
 
-from playwright.sync_api import sync_playwright, Page, Browser
 from utils import _fix_mojibake, _clean_article_content
+
+if TYPE_CHECKING:
+    from playwright.sync_api import Page
 
 
 @dataclass
@@ -304,6 +312,7 @@ class EveningWrapScraper:
         Returns:
             EveningWrapArticle object, or None if scraping fails
         """
+        from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=self.headless)
             context = browser.new_context(user_agent=self.USER_AGENT)

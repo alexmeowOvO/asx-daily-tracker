@@ -396,33 +396,71 @@ def _sync_public_data():
 # Main
 # ═══════════════════════════════════════════════════════════════════════════════
 
+FAILURE_MARKER = SCRIPT_DIR / "logs" / "LAST_FAILED"
+
+
+def _notify_failure(summary: str, details: str) -> None:
+    """Write a failure marker and fire a macOS notification."""
+    import subprocess
+    FAILURE_MARKER.parent.mkdir(exist_ok=True)
+    FAILURE_MARKER.write_text(
+        f"{datetime.now().isoformat(timespec='seconds')}\n{summary}\n\n{details}\n"
+    )
+    try:
+        subprocess.run(
+            ["osascript", "-e",
+             f'display notification "{summary}" with title "ASX Tracker FAILED"'],
+            capture_output=True, timeout=5,
+        )
+    except Exception:
+        pass  # notification is best-effort
+
+
+def _clear_failure_marker() -> None:
+    if FAILURE_MARKER.exists():
+        FAILURE_MARKER.unlink()
+
+
 def main():
     print(f"Daily Update — {datetime.now().isoformat(timespec='seconds')}")
     print(f"Working dir: {os.getcwd()}")
     print("=" * 60)
 
     article_date = None
+    failed_steps: list[str] = []
 
     # Step 1
     try:
         article_date = asyncio.run(_scrape_latest_evening_wrap())
     except Exception as e:
         print(f"\n[Step 1] FAILED: {type(e).__name__}: {e}")
+        failed_steps.append(f"Step 1 (scrape): {type(e).__name__}: {e}")
 
     # Step 2
     try:
         _fetch_stock_prices()
     except Exception as e:
         print(f"\n[Step 2] FAILED: {type(e).__name__}: {e}")
+        failed_steps.append(f"Step 2 (stocks): {type(e).__name__}: {e}")
 
     # Step 3
     try:
         _generate_summary(article_date)
     except Exception as e:
         print(f"\n[Step 3] FAILED: {type(e).__name__}: {e}")
+        failed_steps.append(f"Step 3 (summary): {type(e).__name__}: {e}")
 
     print(f"\n{'=' * 60}")
     print(f"Daily update complete — {datetime.now().isoformat(timespec='seconds')}")
+
+    # ── Alert on any step failure ──────────────────────────────────────────
+    if failed_steps:
+        summary = f"{len(failed_steps)} step(s) failed"
+        details = "\n".join(failed_steps)
+        _notify_failure(summary, details)
+        print(f"  ⚠ Wrote {FAILURE_MARKER} — {summary}")
+    else:
+        _clear_failure_marker()
 
     # ── Sync data → frontend/public/data/ (for GitHub Pages static serving) ─
     try:
@@ -453,4 +491,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        _notify_failure(
+            f"Fatal: {type(e).__name__}: {e}",
+            traceback.format_exc(),
+        )
+        raise
