@@ -1,22 +1,13 @@
 {
-  "last_updated": "2026-05-15T17:00:26.832066",
+  "last_updated": "2026-05-16T17:39:34.123580",
   "stocks": [
-    {
-      "symbol": "CBA.AX",
-      "name": "Commonwealth Bank of Australia",
-      "price": 159.4,
-      "change": 2.980000000000018,
-      "change_percent": 1.9051272215829296,
-      "timestamp": "2026-05-15T17:00:17.853234",
-      "source_url": "https://finance.yahoo.com/quote/CBA.AX"
-    },
     {
       "symbol": "BHP.AX",
       "name": "BHP Group Limited",
       "price": 60.46,
       "change": -1.6000000000000014,
       "change_percent": -2.5781501772478266,
-      "timestamp": "2026-05-15T17:00:18.952662",
+      "timestamp": "2026-05-16T17:31:26.565538",
       "source_url": "https://finance.yahoo.com/quote/BHP.AX"
     },
     {
@@ -25,7 +16,7 @@
       "price": 36.52,
       "change": 0.10000000000000142,
       "change_percent": 0.2745744096650231,
-      "timestamp": "2026-05-15T17:00:20.053726",
+      "timestamp": "2026-05-16T17:31:27.410976",
       "source_url": "https://finance.yahoo.com/quote/NAB.AX"
     },
     {
@@ -34,17 +25,8 @@
       "price": 35.84,
       "change": 0.12000000000000455,
       "change_percent": 0.3359462486002367,
-      "timestamp": "2026-05-15T17:00:20.856126",
+      "timestamp": "2026-05-16T17:31:28.239944",
       "source_url": "https://finance.yahoo.com/quote/WBC.AX"
-    },
-    {
-      "symbol": "ANZ.AX",
-      "name": "ANZ Group Holdings Limited",
-      "price": 35.21,
-      "change": 0.36999999999999744,
-      "change_percent": 1.0619977037887411,
-      "timestamp": "2026-05-15T17:00:21.854832",
-      "source_url": "https://finance.yahoo.com/quote/ANZ.AX"
     },
     {
       "symbol": "CSL.AX",
@@ -52,7 +34,7 @@
       "price": 97.96,
       "change": 0.6999999999999886,
       "change_percent": 0.7197203372403749,
-      "timestamp": "2026-05-15T17:00:22.817719",
+      "timestamp": "2026-05-16T17:39:30.138326",
       "source_url": "https://finance.yahoo.com/quote/CSL.AX"
     },
     {
@@ -61,7 +43,7 @@
       "price": 71.67,
       "change": -0.060000000000002274,
       "change_percent": -0.08364700961940927,
-      "timestamp": "2026-05-15T17:00:23.716518",
+      "timestamp": "2026-05-16T17:39:31.159266",
       "source_url": "https://finance.yahoo.com/quote/WES.AX"
     },
     {
@@ -70,7 +52,7 @@
       "price": 242.96,
       "change": -1.5699999999999932,
       "change_percent": -0.6420480104690602,
-      "timestamp": "2026-05-15T17:00:24.625914",
+      "timestamp": "2026-05-16T17:39:32.215161",
       "source_url": "https://finance.yahoo.com/quote/MQG.AX"
     },
     {
@@ -79,7 +61,7 @@
       "price": 32.98,
       "change": 0.4399999999999977,
       "change_percent": 1.3521819299323838,
-      "timestamp": "2026-05-15T17:00:25.513584",
+      "timestamp": "2026-05-16T17:39:33.029395",
       "source_url": "https://finance.yahoo.com/quote/WOW.AX"
     },
     {
@@ -88,9 +70,9 @@
       "price": 22.6,
       "change": -0.389999999999997,
       "change_percent": -1.6963897346672339,
-      "timestamp": "2026-05-15T17:00:26.359563",
+      "timestamp": "2026-05-16T17:39:33.908079",
       "source_url": "https://finance.yahoo.com/quote/FMG.AX"
     }
   ],
-  "count": 10
+  "count": 8
 }
