@@ -1,4 +1,4 @@
-"""Shared utility functions used by scraper_evening_wrap.py and daily_update.py."""
+"""Shared utility functions for the Evening Wrap pipeline."""
 
 import re
 

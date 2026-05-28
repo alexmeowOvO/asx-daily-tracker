@@ -204,18 +204,6 @@ def run_stock_scraper():
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.post("/api/run/evening-wrap-scraper")
-def run_evening_wrap_scraper():
-    """Trigger the Evening Wrap article scraper."""
-    try:
-        result = run_script("scraper_evening_wrap.py")
-        return result
-    except subprocess.TimeoutExpired:
-        raise HTTPException(status_code=504, detail="Script timed out")
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-
 @app.post("/api/run/summarizer")
 def run_summarizer(api_key: str = None):
     """
@@ -246,18 +234,14 @@ def run_summarizer(api_key: str = None):
 
 @app.post("/api/run/all")
 def run_all_scrapers(api_key: str = None):
-    """Run all scrapers in sequence: stocks -> evening wrap -> summarizer."""
+    """Run stock scraper + summarizer. (Evening Wrap scraping now runs via launchd
+    + daily_update.py — not exposed here.)"""
     results = {}
 
     try:
         results["stock_scraper"] = run_script("scraper_yfinance.py")
     except Exception as e:
         results["stock_scraper"] = {"success": False, "error": str(e)}
-
-    try:
-        results["evening_wrap_scraper"] = run_script("scraper_evening_wrap.py")
-    except Exception as e:
-        results["evening_wrap_scraper"] = {"success": False, "error": str(e)}
 
     try:
         env_vars = {}

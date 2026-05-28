@@ -21,8 +21,7 @@ The frontend is read-only in production (static JSON files); a local Flask API
 
 ```
 crawler/
-├── daily_update.py          ← entry point run by launchd
-├── scraper_evening_wrap.py  ← legacy Playwright scraper (kept for reference)
+├── daily_update.py          ← entry point run by launchd (nodriver scraper inline)
 ├── scraper_yfinance.py      ← stock price fetcher
 ├── summarizer.py            ← Gemini summary + broker-move extraction
 ├── utils.py                 ← shared content cleaners
@@ -84,17 +83,14 @@ means the most recent launchd invocation crashed before `main()` started.
 
 ## Python environment
 
-There are two venvs:
+The production venv is `~/.venv-cf/` — used by launchd and the backfill
+script. Has `nodriver`, `yfinance`, and `google-genai`. The dev API server
+(`api.py`) needs `fastapi` and `uvicorn` on top — install those into
+`crawler/.venv/` if you want to run it locally.
 
-- **`~/.venv-cf/`** — used by launchd and the backfill script. Has `nodriver`,
-  `yfinance`, `google-genai`. **No `playwright`.**
-- **`crawler/.venv/`** — dev venv. Has everything including `playwright` for
-  the legacy scraper.
-
-Anything imported by `daily_update.py` (transitively!) must work under
-`.venv-cf`. The legacy `scraper_evening_wrap.py` does a lazy `playwright`
-import for exactly this reason — don't add eager imports of optional
-dependencies to modules that the daily pipeline touches.
+Anything imported by `daily_update.py` (transitively!) must resolve under
+`.venv-cf`. If you add a new dependency to any module the daily pipeline
+touches, install it in `.venv-cf` and update `requirements.txt`.
 
 ## Deployment
 
