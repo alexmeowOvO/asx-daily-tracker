@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "filename": "evening_wrap_20260603.json",
+      "date": "2026-06-03",
+      "title": "Evening Wrap: ASX 200 climbs on BHP, RIO base metals bonanza, uranium stocks surge on US nuclear energy expansion",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-climbs-on-bhp-rio-base-metals-bonanza-uranium-stocks-surge-on-us-nuclear-energy-expansion"
+    },
+    {
+      "filename": "evening_wrap_20260602.json",
+      "date": "2026-06-02",
+      "title": "Evening Wrap: ASX 200 flat as tech stocks soar, massive gains for WTC, XRO and 360, as retail stocks smashed on FWC call",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-flat-as-tech-stocks-soar-massive-gains-for-wtc-xro-and-360-as-retail-stocks-smashed-on-fwc-call"
+    },
+    {
+      "filename": "evening_wrap_20260601.json",
+      "date": "2026-06-01",
+      "title": "Evening Wrap: ASX 200 closes flat, BHP at all-time highs, Tech stocks rally to a four-month high",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-closes-flat-bhp-at-all-time-highs-tech-stocks-rally-to-a-four-month-high"
+    },
+    {
+      "filename": "evening_wrap_20260529.json",
+      "date": "2026-05-29",
+      "title": "Evening Wrap: ASX 200 piles on points as hopes of Middle East ceasefire sparks gold, base metals, and lithium stocks",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-piles-on-points-as-hopes-of-middle-east-ceasefire-spark-gold-base-metals-and-lithium-stocks"
+    },
+    {
+      "filename": "evening_wrap_20260528.json",
+      "date": "2026-05-28",
+      "title": "Evening Wrap: ASX 200 smashed on US-Iran escalation, gold stocks plunge as EVN, NST and NEM each lose over 7%",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-smashed-on-us-iran-escalation-gold-stocks-plunge-as-evn-nst-and-nem-each-lose-over-7"
+    },
+    {
       "filename": "evening_wrap_20260527.json",
       "date": "2026-05-27",
       "title": "Evening Wrap: ASX 200 rallies as inflation data bolsters 'no more hikes' case, retail, tech stocks shine, CSL bounces",
