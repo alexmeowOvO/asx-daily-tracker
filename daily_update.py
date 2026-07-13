@@ -70,7 +70,8 @@ def parse_article_date(raw_text: str) -> str:
 async def _extract_content_with_images(tab) -> tuple[str, list[str]]:
     raw = await tab.evaluate("""
     JSON.stringify((() => {
-        let el = document.querySelector('.news-content');
+        let el = document.querySelector('.article-content');
+        if (!el) el = document.querySelector('.news-content');
         if (!el) {
             const wrappers = [...document.querySelectorAll('[class*="content-wrapper"]')];
             el = wrappers.find(e => e.querySelector('p'));
@@ -83,7 +84,7 @@ async def _extract_content_with_images(tab) -> tuple[str, list[str]]:
         const blockTags = new Set(['P', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6',
                                    'LI', 'BLOCKQUOTE', 'FIGURE', 'UL', 'OL']);
         function walk(el, depth) {
-            if (depth > 4) return;
+            if (depth > 8) return;
             for (const child of el.children) {
                 const imgs = child.nodeName === 'IMG'
                     ? [child]

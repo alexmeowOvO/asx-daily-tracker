@@ -1,6 +1,162 @@
 {
   "articles": [
     {
+      "filename": "evening_wrap_20260710.json",
+      "date": "2026-07-10",
+      "title": "Evening Wrap: ASX 200 closes higher on gold and mining stocks rebound, healthcare stocks savaged as PME, CSL hit",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-closes-higher-on-gold-and-mining-stocks-rebound-healthcare"
+    },
+    {
+      "filename": "evening_wrap_20260709.json",
+      "date": "2026-07-09",
+      "title": "Evening Wrap: ASX 200 dips on sagging mining, gold stocks, but oil price spike drives another strong day for STO and WDS",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-dips-on-sagging-mining-gold-stocks-but-oil-price-spike"
+    },
+    {
+      "filename": "evening_wrap_20260708.json",
+      "date": "2026-07-08",
+      "title": "Evening Wrap: ASX 200 avoids wipeout as big banks, energy stocks steady ship, base metals, lithium and gold pain continues",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-avoids-wipeout-as-big-banks-energy-stocks-steady-ship"
+    },
+    {
+      "filename": "evening_wrap_20260707.json",
+      "date": "2026-07-07",
+      "title": "Evening Wrap: ASX 200 slides on base and precious metals wipeout, big banks and tech pick up slack, WTC jumps as White concedes chair",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-on-base-and-precious-metals-wipeout-big-banks"
+    },
+    {
+      "filename": "evening_wrap_20260706.json",
+      "date": "2026-07-06",
+      "title": "Evening Wrap: ASX 200 slips as as banks and miners weigh, healthcare extends hot run",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slips-as-as-banks-and-miners-weigh-healthcare-extends"
+    },
+    {
+      "filename": "evening_wrap_20260703.json",
+      "date": "2026-07-03",
+      "title": "Evening Wrap: ASX 200 jumps 120 points as gold stocks surge, new FY flows lift miners and healthcare",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-jumps-120-points-as-gold-stocks-surge-new-fy-flows"
+    },
+    {
+      "filename": "evening_wrap_20260702.json",
+      "date": "2026-07-02",
+      "title": "Evening Wrap: ASX 200 sneaks a gain as gold stocks rebound, NAB pops on upgrade as WES drops on downgrade",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-sneaks-a-gain-as-gold-stocks-rebound-nab-pops-on-upgrade"
+    },
+    {
+      "filename": "evening_wrap_20260701.json",
+      "date": "2026-07-01",
+      "title": "Evening Wrap: ASX 200 slides as gold rout continues, lithium and uranium the bright spots, BOE +14%",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-gold-rout-continues-lithium-and-uranium"
+    },
+    {
+      "filename": "evening_wrap_20260630.json",
+      "date": "2026-06-30",
+      "title": "Evening Wrap: ASX 200 drops as miners and property stocks sag into financial year-end, flows favour banks",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-drops-as-miners-and-property-stocks-sag-into-financial"
+    },
+    {
+      "filename": "evening_wrap_20260629.json",
+      "date": "2026-06-29",
+      "title": "Evening Wrap: ASX 200 rises on broad technology sector rally, WiseTech gains 7%, Life360 surges 11%",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-rises-on-broad-technology-sector-rally-wisetech-gains"
+    },
+    {
+      "filename": "evening_wrap_20260626.json",
+      "date": "2026-06-26",
+      "title": "Evening Wrap: ASX 200 sneaks gain as gold, iron ore and energy stocks rebound, CSL rally loses steam",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-sneaks-gain-as-gold-iron-ore-and-energy-stocks-rebound"
+    },
+    {
+      "filename": "evening_wrap_20260625.json",
+      "date": "2026-06-25",
+      "title": "Evening Wrap: ASX 200 slides as mining wipeout continues, GYG, LOV and JBH soar on Aussie employment and retail spending bonanza!",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-mining-wipeout-continues-gyg-lov-and-jbh"
+    },
+    {
+      "filename": "evening_wrap_20260624.json",
+      "date": "2026-06-24",
+      "title": "Evening Wrap: ASX 200 sneaks gain as CSL drives healthcare rally, WTC is back from the dead, and lithium stocks track futures bounce",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-sneaks-gain-as-csl-drives-healthcare-rally-wtc-is"
+    },
+    {
+      "filename": "evening_wrap_20260623.json",
+      "date": "2026-06-23",
+      "title": "Evening Wrap: ASX 200 slides as Korea's KOSPI suffers 10% AI-led wipeout, ANZ, CBA and Telstra only places to hide",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-korea-s-kospi-suffers-10-ai-led-wipeout"
+    },
+    {
+      "filename": "evening_wrap_20260622.json",
+      "date": "2026-06-22",
+      "title": "Evening Wrap: ASX 200 flat as gold stocks bounce, tech sector smashed by 18% fall in WTC, lithium stocks tumble on wild commodity price swings",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-flat-as-gold-stocks-bounce-tech-sector-smashed-by"
+    },
+    {
+      "filename": "evening_wrap_20260619.json",
+      "date": "2026-06-19",
+      "title": "Evening Wrap: ASX 200 slammed by BHP rout, gold stocks sag as precious metal's dream run comes to an end",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slammed-by-bhp-rout-gold-stocks-sag-as-precious-metal"
+    },
+    {
+      "filename": "evening_wrap_20260618.json",
+      "date": "2026-06-18",
+      "title": "Evening Wrap: ASX 200 slides as hawkish Fed hits mining stocks – gold, uranium, lithium under pressure",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-hawkish-fed-hits-mining-stocks-gold-uranium"
+    },
+    {
+      "filename": "evening_wrap_20260617.json",
+      "date": "2026-06-17",
+      "title": "Evening Wrap: ASX 200 logs fourth straight win as momentum builds towards a major breakout, gold stocks' rally continues as energy's slide deepens",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-logs-fourth-straight-win-as-momentum-builds-towards"
+    },
+    {
+      "filename": "evening_wrap_20260616.json",
+      "date": "2026-06-16",
+      "title": "Evening Wrap: ASX 200 sneaks gain as gold stocks extend gains and energy sector rebounds from selloff, banks cheer RBA hold",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-sneaks-gain-as-gold-stocks-extend-gains-and-energy"
+    },
+    {
+      "filename": "evening_wrap_20260615.json",
+      "date": "2026-06-15",
+      "title": "Evening Wrap: ASX 200 posts a second straight 100-point gain as gold and base metals rally on Strait of Hormuz reopening hopes, energy stocks tumble",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-posts-a-second-straight-100-point-gain-as-gold-and"
+    },
+    {
+      "filename": "evening_wrap_20260612.json",
+      "date": "2026-06-12",
+      "title": "Evening Wrap: ASX 200 stacks on 171 points as mining stocks rebound on falling oil price, gold stocks' misery turns to joyful bounce",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-stacks-on-171-points-as-mining-stocks-rebound-on-falling"
+    },
+    {
+      "filename": "evening_wrap_20260611.json",
+      "date": "2026-06-11",
+      "title": "Evening Wrap: ASX 200 slides as property tax fears hammer bank stocks, investors buy the dip on BHP",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-property-tax-fears-hammer-bank-stocks-investors-buy-the-dip-on-bhp"
+    },
+    {
+      "filename": "evening_wrap_20260610.json",
+      "date": "2026-06-10",
+      "title": "Evening Wrap: ASX 200 climbs as CSL surges back above $100, meltdown in gold stocks continues",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-climbs-as-csl-surges-back-above-100-meltdown-in-gold-stocks-continues"
+    },
+    {
+      "filename": "evening_wrap_20260609.json",
+      "date": "2026-06-09",
+      "title": "Evening Wrap: ASX 200 dodges global stock selloff bullet as weaker economic data hints at RBA rate hike reprieve",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-dodges-global-stock-selloff-bullet-as-weaker-economic-data-hints-at-rba-rate-hike-reprieve"
+    },
+    {
+      "filename": "evening_wrap_20260605.json",
+      "date": "2026-06-05",
+      "title": "Evening Wrap: ASX 200 slides despite CSL's massive surge – ring the bell, the beleaguered healthcare sector is back!",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-despite-csls-massive-surge-ring-the-bell-the-beleaguered-healthcare-sector-is-back"
+    },
+    {
+      "filename": "evening_wrap_20260604.json",
+      "date": "2026-06-04",
+      "title": "Evening Wrap: ASX 200 slumps as iron ore price plunge rocks BHP, RIO and FMG",
+      "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slumps-as-iron-ore-price-plunge-rocks-bhp-rio-and-fmg"
+    },
+    {
       "filename": "evening_wrap_20260603.json",
       "date": "2026-06-03",
       "title": "Evening Wrap: ASX 200 climbs on BHP, RIO base metals bonanza, uranium stocks surge on US nuclear energy expansion",
