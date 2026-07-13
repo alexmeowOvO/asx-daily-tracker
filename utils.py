@@ -27,8 +27,12 @@ def _clean_article_content(content: str) -> str:
     if more_match:
         content = content[more_match.end():]
 
+    # Case-sensitive: the real article body opens with a capitalised sentence
+    # ("The S&P/ASX 200 (XJO) finished…"). The site prepends a lowercase teaser
+    # ("the S&P/ASX 200 in today's ChartWatch. Let's dive in!…") that we must
+    # skip — matching case-insensitively would latch onto that teaser instead.
     for pat in [r"The S&P/ASX \d+", r"The ASX \d+", r"Australian shares"]:
-        match = re.search(pat, content, re.IGNORECASE)
+        match = re.search(pat, content)
         if match:
             before = content[:match.start()]
             markers_before = re.findall(image_pattern, before)
